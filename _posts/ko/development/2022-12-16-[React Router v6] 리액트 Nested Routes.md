@@ -7,6 +7,7 @@ tags: [Korean, React, Typescript]     # TAG names should always be lowercase
 math: true
 mermaid: true
 ---
+
 최근에 React 프로젝트에서 React Router를 사용하다가 프로젝트가 생각보다 커져 Route들을 관리하기 쉽도록 Nested Routes를 쓰게 되었다.
 
 리액트를 처음 써보는 프로젝트라서 처음에는 어떻게 해야 하는 지 몰랐고, 현재 느낀 바로는 지금의 React는 기존의 클래스형 컴포넌트에서 함수형 컴포넌트로 넘어가는 도중이고, React Router v6에 관한 글이 별로 없어서 자료를 찾기 힘들었다.
