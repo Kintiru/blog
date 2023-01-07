@@ -16,7 +16,7 @@ mermaid: true
 
 ## App.js 예시
 
-```typescript
+```tsx
 import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
@@ -36,6 +36,7 @@ export default function App() {
   );
 }
 ```
+{: file="App.tsx"}
 
 App.js 는 이런 식으로 작성했다.
 
@@ -45,7 +46,7 @@ App.js 는 이런 식으로 작성했다.
 
 ## SubRouter1.js 예시
 
-```typescript
+```tsx
 import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -63,5 +64,6 @@ const SubRouter1 = () => {
 
 export default SubRouter1;
 ```
+{: file="SubRoute1.tsx"}
 
 상대경로가 지원 되기 때문에 하위 라우팅 파일에서는 `path="/SubRoute1/Component1"` 대신에 `path="Component"`로 작성해도 제대로 `www.example.com/SubRoute1/Component1`으로 라우팅 된다.
