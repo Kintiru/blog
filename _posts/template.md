@@ -1,0 +1,10 @@
+---
+title: 
+date: -- ::00 +0900
+author: kintiru
+categories: []   # [TOP_CATEGORIE, SUB_CATEGORIE]
+tags: []     # TAG names should always be lowercase
+math: true
+---
+
+
