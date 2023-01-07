@@ -17,7 +17,7 @@ math: true
 
 ## 예시
 
-``` Typescript
+``` ts
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
