@@ -9,7 +9,7 @@ math: true
 
 WSL 2 Ubuntu Distribution에서 screen을 사용하려고 하는데 아래와 같은 에러가 떴다.
 
-``` console
+``` sh
 Cannot make directory '/run/screen': Permission denied
 ```
 
@@ -23,7 +23,7 @@ sudo /etc/init.d/screen-cleanup start
 
 혹은 다음과 같은 상황이라면 이렇게 해결할 수 있다.
 
-``` console
+``` sh
 $ systemctl is-enabled screen-cleanup.service
 
 masked
