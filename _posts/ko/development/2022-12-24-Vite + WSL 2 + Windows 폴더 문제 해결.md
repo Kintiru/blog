@@ -3,7 +3,7 @@ title: Vite + WSL2 + Windows 폴더 문제 해결
 date: 2022-12-24 10:02:00 +0900
 author: kintiru
 categories: [Korean, Development]   # [TOP_CATEGORIE, SUB_CATEGORIE]
-tags: [Korean]     # TAG names should always be lowercase
+tags: [Korean, React, Typescript]     # TAG names should always be lowercase
 math: true
 ---
 
@@ -17,7 +17,7 @@ math: true
 
 ## 예시
 
-``` ts
+```typescript
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 

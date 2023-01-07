@@ -3,13 +3,13 @@ title: Docker Volume 백업하는 법
 date: 2022-12-19 07:03:00 +0900
 author: kintiru
 categories: [Korean, Development]   # [TOP_CATEGORIE, SUB_CATEGORIE]
-tags: [Korean]     # TAG names should always be lowercase
+tags: [Korean, Docker]     # TAG names should always be lowercase
 math: true
 ---
 
 이번에 Ghost를 업데이트하면서 혹시 모를 상황에 대비해 Docker Volume을 백업해야하는 상황이 오게 되었다.
 
-``` sh
+```sh
 mkdir ~/backup
 docker run --rm --volumes-from <container> -v ~/backup:/backup ubuntu bash -c "cd <path to backup> && tar cvf /backup/backup.tar ."
 ```
@@ -23,6 +23,6 @@ docker run --rm --volumes-from <container> -v ~/backup:/backup ubuntu bash -c "c
 
 나의 경우 이렇게 사용했다.
 
-``` sh
+```sh
 docker run --rm --volumes-from blog.kintiru.cc -v ~/backup:/backup ubuntu bash -c "cd /var/lib/ghost && tar cvf /backup/ghost.tar ."
 ```
