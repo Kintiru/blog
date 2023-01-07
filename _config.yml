@@ -19,7 +19,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Kintiru Page                          # the main title
+title: "Kintiru's Page"                          # the main title
 
 tagline: I Know Nothing   # it will display as the sub-title
 
