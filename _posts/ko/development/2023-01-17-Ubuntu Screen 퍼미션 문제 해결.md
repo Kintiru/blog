@@ -1,6 +1,6 @@
 ---
 title: Ubuntu Screen Permission 문제 해결
-date: 2023-01-17 12:30:00 -0500
+date: 2023-01-07 12:30:00 -0500
 author: kintiru
 categories: [Korean, Development]   # [TOP_CATEGORIE, SUB_CATEGORIE]
 tags: [Korean]     # TAG names should always be lowercase
