@@ -6,7 +6,6 @@ categories: [Korean, Development]   # [TOP_CATEGORIE, SUB_CATEGORIE]
 tags: [Korean, React, Typescript]     # TAG names should always be lowercase
 math: true
 mermaid: true
-img_path: 
 ---
 최근에 React 프로젝트에서 React Router를 사용하다가 프로젝트가 생각보다 커져 Route들을 관리하기 쉽도록 Nested Routes를 쓰게 되었다.
 
