@@ -1,5 +1,5 @@
 ---
-title: [React Router v6] 리액트 Nested Routes
+title: '[React Router v6] 리액트 Nested Routes'
 date: 2022-12-16 04:22:00 +0900
 author: kintiru
 categories: [Korean, Development]   # [TOP_CATEGORIE, SUB_CATEGORIE]
