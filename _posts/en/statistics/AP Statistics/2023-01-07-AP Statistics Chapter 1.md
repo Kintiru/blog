@@ -58,6 +58,10 @@ $$
 
 ## Bar Graph
 
+<div style="width:100%;">
+<canvas id="canvas" height="300"></canvas>
+</div>
+
 <script>
 
 new Chart(document.getElementById("canvas"), {
