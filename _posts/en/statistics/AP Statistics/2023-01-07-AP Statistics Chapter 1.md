@@ -61,7 +61,6 @@ Association : Relativeness of two variables
             datasets: [{
                 label: "example dataset",
                 data: [Math.random() * 100, Math.random() * 100, Math.random() * 100, Math.random() * 100],
-                radius: '70%',
                 borderColor: "rgba(0, 0, 0, 0)",
                 borderWidth: 2,
                 borderRadius: 7,
