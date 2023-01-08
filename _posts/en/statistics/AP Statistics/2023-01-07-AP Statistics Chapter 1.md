@@ -50,7 +50,8 @@ pie title Data
 | totals | 80        | 120       | 200    |
 
 
-> Two Way Table in general 
+> Two Way Table in general
+{: .prompt-info} 
 
 |            | category A | category B | Totals |
 |------------|------------|------------|--------|
@@ -80,7 +81,7 @@ $$
                 data: [Math.random() * 100, Math.random() * 100, Math.random() * 100, Math.random() * 100],
                 borderColor: "rgba(255, 99, 132, 1)",
                 borderWidth: 2,
-                borderRadius: 100,
+                borderRadius: 10,
                 backgroundColor: "rgba(255, 99, 132, 0.5)",
             }],
         },
@@ -114,7 +115,7 @@ $$
                     data: [Math.random() * 100, Math.random() * 100, Math.random() * 100, Math.random() * 100],
                     borderColor: "rgba(255, 99, 132, 1)",
                     borderWidth: 2,
-                    borderRadius: 100,
+                    borderRadius: 10,
                     backgroundColor: "rgba(255, 99, 132, 0.5)",
                 },
                 {
@@ -122,7 +123,7 @@ $$
                     data: [Math.random() * 100, Math.random() * 100, Math.random() * 100, Math.random() * 100],
                     borderColor: "rgba(54, 162, 235, 1)",
                     borderWidth: 2,
-                    borderRadius: 100,
+                    borderRadius: 10,
                     backgroundColor: "rgba(54, 162, 235, 0.5)",
                 }
             ],
