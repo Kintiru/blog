@@ -14,6 +14,11 @@ mermaid: true
 #pin: true
 ---
 
+<!--- 
+Include script per post to prevent version break and better per post management
+-->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.1.2/dist/chart.umd.js"></script>
+
 - [Vocabularies](#vocabularies)
 - [1.1 Categorical Data Analysis](#11-categorical-data-analysis)
   - [Pie Chart](#pie-chart)
