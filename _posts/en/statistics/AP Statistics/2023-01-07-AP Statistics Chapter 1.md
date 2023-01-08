@@ -54,62 +54,36 @@ $$
 \end{aligned}
 $$
 
-
-
 ## Bar Graph
 
-<div style="width:100%;">
-    <canvas id="canvas" height="300"></canvas>
-</div>
+<div><canvas id="barGraphExample"></canvas></div>
 
 <script>
-new Chart(document.getElementById("canvas"), {
-    type: 'bar',
-    data: {
-        labels: ['A', 'B', 'C', 'D'],
-        datasets: [{
-            label: 'Test DataSet',
-            data: [10, 3, 30, 23],
-            borderColor: "rgba(255, 201, 14, 1)",
-            backgroundColor: "rgba(255, 201, 14, 0.5)",
-            fill: false,
-        }]
-    },
-    options: {
-        responsive: true,
-        title: {
-            display: true,
-            text: '막대 차트 테스트'
-        },
-        tooltips: {
-            mode: 'index',
-            intersect: false,
-        },
-        hover: {
-            mode: 'nearest',
-            intersect: true
-        },
-        scales: {
-            xAxes: [{
-                display: true,
-                scaleLabel: {
-                    display: true,
-                    labelString: 'x'
-                },
+    new Chart(document.getElementById('barGraphExample'),{
+        type: 'bar',
+        data: {
+            labels: ['A', 'B', 'C', 'D'],
+            datasets: [{
+                label: "test datasets",
+                data: [10, 3, 30, 24],
+                borderColor: "rgba(255, 201, 14, 1)",
+                borderWidth: 2,
+                backgroundColor: "rgba(255, 201, 14, 0.5)",
             }],
-            yAxes: [{
-                display: true,
-                ticks: {
-                    autoSkip: false,
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top',
                 },
-                scaleLabel: {
+                title: {
                     display: true,
-                    labelString: 'y'
-                }
-            }]
-        }
-    }
-});
+                    text: 'Example Bar Graph'
+                },
+            },
+        },
+    });
 </script>
 
 ### Side by Side Bar Graph
