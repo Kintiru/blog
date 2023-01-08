@@ -128,13 +128,14 @@ $$
 <div><canvas id="barGraphExample"></canvas></div>
 
 <script>
+    const mrf = (n = 100) => (Math.floor(Math.random() * n);
     const barGraphExample = new Chart(document.getElementById('barGraphExample'),{
         type: 'bar',
         data: {
             labels: ['A', 'B', 'C', 'D'],
             datasets: [{
                 label: "example dataset",
-                data: [Math.random() * 100, Math.random() * 100, Math.random() * 100, Math.random() * 100],
+                data: [mrf(), mrf(), mrf(), mrf()],
                 borderColor: "rgba(255, 99, 132, 1)",
                 borderWidth: 2,
                 borderRadius: 10,
@@ -168,7 +169,7 @@ $$
             datasets: [
                 {
                     label: "example dataset 1",
-                    data: [Math.random() * 100, Math.random() * 100, Math.random() * 100, Math.random() * 100],
+                    data: [mrf(), mrf(), mrf(), mrf()],
                     borderColor: "rgba(255, 99, 132, 1)",
                     borderWidth: 2,
                     borderRadius: 10,
@@ -176,7 +177,7 @@ $$
                 },
                 {
                     label: "example dataset 2",
-                    data: [Math.random() * 100, Math.random() * 100, Math.random() * 100, Math.random() * 100],
+                    data: [mrf(), mrf(), mrf(), mrf()],
                     borderColor: "rgba(54, 162, 235, 1)",
                     borderWidth: 2,
                     borderRadius: 10,
@@ -211,7 +212,7 @@ $$
             datasets: [
                 {
                     label: "example dataset 1",
-                    data: [Math.random() * 100, Math.random() * 100, Math.random() * 100, Math.random() * 100],
+                    data: [mrf(), mrf(), mrf(), mrf()],
                     borderColor: "rgba(255, 99, 132, 1)",
                     borderWidth: 0,
                     borderRadius: 5,
@@ -220,7 +221,7 @@ $$
                 },
                 {
                     label: "example dataset 2",
-                    data: [Math.random() * 100, Math.random() * 100, Math.random() * 100, Math.random() * 100],
+                    data: [mrf(), mrf(), mrf(), mrf()],
                     borderColor: "rgba(54, 162, 235, 1)",
                     borderWidth: 0,
                     borderRadius: 5,
