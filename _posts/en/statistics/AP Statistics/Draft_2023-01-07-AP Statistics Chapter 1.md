@@ -54,6 +54,8 @@ $$
 \end{aligned}
 $$
 
+
+
 ## Bar Graph
 
 ### Side by Side Bar Graph
