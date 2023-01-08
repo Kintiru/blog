@@ -68,7 +68,7 @@ $$
 <div><canvas id="barGraphExample"></canvas></div>
 
 <script>
-    new Chart(document.getElementById('barGraphExample'),{
+    const barGraphExample = new Chart(document.getElementById('barGraphExample'),{
         type: 'bar',
         data: {
             labels: ['A', 'B', 'C', 'D'],
@@ -77,7 +77,7 @@ $$
                 data: [Math.random() * 100, Math.random() * 100, Math.random() * 100, Math.random() * 100],
                 borderColor: "rgba(255, 99, 132, 1)",
                 borderWidth: 2,
-                borderRadius: 10,
+                borderRadius: 100,
                 backgroundColor: "rgba(255, 99, 132, 0.5)",
             }],
         },
@@ -101,7 +101,7 @@ $$
 <div><canvas id="sideBySideBarGraphExample"></canvas></div>
 
 <script>
-    new Chart(document.getElementById('sideBySideBarGraphExample'),{
+    const sideBySideBarGraphExample = new Chart(document.getElementById('sideBySideBarGraphExample'),{
         type: 'bar',
         data: {
             labels: ['A', 'B', 'C', 'D'],
@@ -111,7 +111,7 @@ $$
                     data: [Math.random() * 100, Math.random() * 100, Math.random() * 100, Math.random() * 100],
                     borderColor: "rgba(255, 99, 132, 1)",
                     borderWidth: 2,
-                    borderRadius: 10,
+                    borderRadius: 100,
                     backgroundColor: "rgba(255, 99, 132, 0.5)",
                 },
                 {
@@ -119,7 +119,7 @@ $$
                     data: [Math.random() * 100, Math.random() * 100, Math.random() * 100, Math.random() * 100],
                     borderColor: "rgba(54, 162, 235, 1)",
                     borderWidth: 2,
-                    borderRadius: 10,
+                    borderRadius: 100,
                     backgroundColor: "rgba(54, 162, 235, 0.5)",
                 }
             ],
