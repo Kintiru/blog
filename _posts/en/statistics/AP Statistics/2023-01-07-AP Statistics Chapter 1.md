@@ -30,13 +30,36 @@ Association : Relativeness of two variables
 
 ## Pie Chart
 
-```mermaid
-pie title Data
-	"A" : 4
-	"B" : 5
-	"C" : 7
-    "D" : 3
-```
+<div><canvas id="pieChartExample"></canvas></div>
+
+<script>
+    const pieChartExample = new Chart(document.getElementById('pieChartExample'),{
+        type: 'pie',
+        data: {
+            labels: ['A', 'B', 'C', 'D'],
+            datasets: [{
+                label: "example dataset",
+                data: [Math.random() * 100, Math.random() * 100, Math.random() * 100, Math.random() * 100],
+                borderColor: "rgba(0, 0, 0, 0)",
+                borderWidth: 2,
+                borderRadius: 7,
+                backgroundColor: ['rgb(255, 99, 132)', 'rgb(255, 159, 64)', 'rgb(255, 205, 86)', 'rgb(54, 162, 235)'],
+            }],
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                title: {
+                    display: true,
+                    text: 'Example Pie Chart',
+                },
+            },
+        },
+    });
+</script>
 
 ## Two Way Table
 
