@@ -98,7 +98,7 @@ Association : Relativeness of two variables
 
 ## Two Way Table
 
-> Example Two Way Table
+> **Example Two Way Table**
 
 |        | Company A | Company B | totals |
 |--------|-----------|-----------|--------|
@@ -107,7 +107,7 @@ Association : Relativeness of two variables
 | totals | 80        | 120       | 200    |
 
 
-> Two Way Table in general
+> **Two Way Table in general**
 
 |            | category A | category B | Totals |
 |------------|------------|------------|--------|
