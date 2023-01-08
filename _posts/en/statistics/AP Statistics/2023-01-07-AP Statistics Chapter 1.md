@@ -64,11 +64,12 @@ $$
         data: {
             labels: ['A', 'B', 'C', 'D'],
             datasets: [{
-                label: "test datasets",
-                data: [10, 3, 30, 24],
-                borderColor: "rgba(255, 201, 14, 1)",
+                label: "example dataset",
+                data: Utils.numbers({count: 4, min: 0, max: 100}),
+                borderColor: Utils.CHART_COLORS.red,
                 borderWidth: 2,
-                backgroundColor: "rgba(255, 201, 14, 0.5)",
+                borderRadius: 10,
+                backgroundColor: Utils.transparentize(Utils.CHART_COLORS.red, 0.5),
             }],
         },
         options: {
@@ -79,7 +80,7 @@ $$
                 },
                 title: {
                     display: true,
-                    text: 'Example Bar Graph'
+                    text: 'Example Bar Graph',
                 },
             },
         },
@@ -87,7 +88,46 @@ $$
 </script>
 
 ### Side by Side Bar Graph
+<div><canvas id="sideBySideBarGraphExample"></canvas></div>
 
+<script>
+    new Chart(document.getElementById('sideBySideBarGraphExample'),{
+        type: 'bar',
+        data: {
+            labels: ['A', 'B', 'C', 'D'],
+            datasets: [
+                {
+                    label: "example dataset 1",
+                    data: Utils.numbers({count: 4, min: 0, max: 100}),
+                    borderColor: Utils.CHART_COLORS.red,
+                    borderWidth: 2,
+                    borderRadius: 10,
+                    backgroundColor: Utils.transparentize(Utils.CHART_COLORS.red, 0.5),
+                },
+                {
+                    label: "example dataset 2",
+                    data: Utils.numbers({count: 4, min: 0, max: 100}),
+                    borderColor: Utils.CHART_COLORS.blue,
+                    borderWidth: 2,
+                    borderRadius: 10,
+                    backgroundColor: Utils.transparentize(Utils.CHART_COLORS.blue, 0.5),
+                }
+            ],
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                title: {
+                    display: true,
+                    text: 'Example Side by Side Bar Graph',
+                },
+            },
+        },
+    });
+</script>
 ### Segmented Bar Graph
 
 # Quantative Data Analysis
