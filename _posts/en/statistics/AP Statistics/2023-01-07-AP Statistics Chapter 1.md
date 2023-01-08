@@ -38,7 +38,16 @@ pie title Data
     "D" : 3
 ```
 
-## Two way Table
+## Two Way Table
+
+> Example Two Way Table
+{: .prompt-info} 
+
+|        | Company A | Company B | totals |
+|--------|-----------|-----------|--------|
+| Banana | 40        | 60        | 100    |
+| Apple  | 40        | 60        | 100    |
+| totals | 80        | 120       | 200    |
 
 |            | category A | category B | Totals |
 |------------|------------|------------|--------|
