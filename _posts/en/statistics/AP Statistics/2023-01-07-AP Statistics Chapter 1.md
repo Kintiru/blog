@@ -49,6 +49,9 @@ pie title Data
 | Apple  | 40        | 60        | 100    |
 | totals | 80        | 120       | 200    |
 
+
+> Two Way Table in general 
+
 |            | category A | category B | Totals |
 |------------|------------|------------|--------|
 | category 1 | J          | J          | M      |
