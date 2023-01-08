@@ -40,6 +40,7 @@ Association : Relativeness of two variables
             datasets: [{
                 label: "example dataset",
                 data: [Math.random() * 100, Math.random() * 100, Math.random() * 100, Math.random() * 100],
+                radius: '70%',
                 borderColor: "rgba(0, 0, 0, 0)",
                 borderWidth: 2,
                 borderRadius: 7,
@@ -182,7 +183,7 @@ $$
                     borderColor: "rgba(255, 99, 132, 1)",
                     borderWidth: 0,
                     borderRadius: 5,
-                    backgroundColor: "rgba(255, 99, 132, 0.5)",
+                    backgroundColor: "rgba(255, 99, 132, 1)",
                     stack: 'Stack 0',
                 },
                 {
@@ -191,7 +192,7 @@ $$
                     borderColor: "rgba(54, 162, 235, 1)",
                     borderWidth: 0,
                     borderRadius: 5,
-                    backgroundColor: "rgba(54, 162, 235, 0.5)",
+                    backgroundColor: "rgba(54, 162, 235, 1)",
                     stack: 'Stack 0',
                 }
             ],
