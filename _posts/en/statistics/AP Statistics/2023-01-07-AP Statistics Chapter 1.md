@@ -31,7 +31,7 @@ Include script per post to prevent version break and better per post management
   - [Histogram](#histogram)
   - [Shape](#shape)
     - [Unimodal](#unimodal)
-    - [Multimodal (2 or more peaks)\*\*](#multimodal-2-or-more-peaks)
+    - [Multimodal (2 or more peaks)](#multimodal-2-or-more-peaks)
   - [Stemplots](#stemplots)
   - [Boxplot](#boxplot)
 - [Description of Quantitative Data](#description-of-quantitative-data)
@@ -265,7 +265,7 @@ $$
 
 ### Unimodal
 
-### Multimodal (2 or more peaks)**
+### Multimodal (2 or more peaks)
 
 ## Stemplots
 
