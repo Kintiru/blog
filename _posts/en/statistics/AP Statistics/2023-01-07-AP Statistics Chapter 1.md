@@ -25,9 +25,13 @@ mermaid: true
   - [Dotplots](#dotplots)
   - [Histogram](#histogram)
   - [Shape](#shape)
-    - [Unimodal](#unimodal)
-    - [Multimodal (2 or more peaks)](#multimodal-2-or-more-peaks)
   - [Stemplots](#stemplots)
+  - [Boxplot](#boxplot)
+- [Description of Quantitative Data](#description-of-quantitative-data)
+  - [Center](#center)
+  - [Shape](#shape-1)
+  - [Variability](#variability)
+  - [Outliers](#outliers)
 
 ---
 
@@ -47,7 +51,7 @@ Association : Relativeness of two variables
 
 ## Pie Chart
 
-<div><canvas id="pieChartExample"></canvas></div>
+<div style="width:70%;"><canvas id="pieChartExample"></canvas></div>
 
 <script>
     const pieChartExample = new Chart(document.getElementById('pieChartExample'),{
@@ -82,7 +86,6 @@ Association : Relativeness of two variables
 ## Two Way Table
 
 > Example Two Way Table
-{: .prompt-info} 
 
 |        | Company A | Company B | totals |
 |--------|-----------|-----------|--------|
@@ -92,7 +95,6 @@ Association : Relativeness of two variables
 
 
 > Two Way Table in general
-{: .prompt-info} 
 
 |            | category A | category B | Totals |
 |------------|------------|------------|--------|
@@ -248,9 +250,34 @@ $$
 
 ## Shape
 
-### Unimodal
+> Unimodal
 
-### Multimodal (2 or more peaks)
+> Multimodal (2 or more peaks)
 
 ## Stemplots
 
+## Boxplot
+
+Before going into boxplot, I recommend reading [Description of Quantitative Data](#description-of-quantitative-data) first.
+
+# Description of Quantitative Data
+
+## Center
+
+> Mean
+
+> Median
+
+## Shape
+
+## Variability
+
+> Range
+
+> Standard Deviation
+
+> IQR
+
+> Variance
+
+## Outliers
