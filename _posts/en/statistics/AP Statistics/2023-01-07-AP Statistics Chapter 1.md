@@ -14,6 +14,23 @@ mermaid: true
 #pin: true
 ---
 
+- [Vocabularies](#vocabularies)
+- [1.1 Categorical Data Analysis](#11-categorical-data-analysis)
+  - [Pie Chart](#pie-chart)
+  - [Two Way Table](#two-way-table)
+  - [Bar Graph](#bar-graph)
+    - [Side by Side Bar Graph](#side-by-side-bar-graph)
+    - [Segmented Bar Graph](#segmented-bar-graph)
+- [Quantative Data Analysis](#quantative-data-analysis)
+  - [Dotplots](#dotplots)
+  - [Histogram](#histogram)
+  - [Shape](#shape)
+    - [Unimodal](#unimodal)
+    - [Multimodal (2 or more peaks)](#multimodal-2-or-more-peaks)
+  - [Stemplots](#stemplots)
+
+---
+
 # Vocabularies
 
 Quantitative Data : Data that represents amounts
