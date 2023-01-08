@@ -50,7 +50,7 @@ $$
 \begin{aligned}
 &J \text{ - Joint Frequency} \\
 &M \text{ - Marginal Frequency}\\
-&{\footnotesize \frac{J}{M}} \text{ - Conditional Frequency}
+&{\small \frac{J}{M}} \text{ - Conditional Frequency}
 \end{aligned}
 $$
 
