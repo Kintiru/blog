@@ -59,11 +59,11 @@ $$
 ## Bar Graph
 
 <div style="width:100%;">
-<canvas id="barGraph" height="300"></canvas>
+<canvas id="canvas" height="300"></canvas>
 </div>
 
 <script>
-new Chart(document.getElementById("barGraph"), {
+new Chart(document.getElementById("canvas"), {
     type: 'verticalBar',
     data: {
         labels: ['A', 'B', 'C', 'D'],
