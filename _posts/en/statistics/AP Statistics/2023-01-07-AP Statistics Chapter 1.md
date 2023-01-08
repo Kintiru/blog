@@ -74,11 +74,11 @@ $$
             labels: ['A', 'B', 'C', 'D'],
             datasets: [{
                 label: "example dataset",
-                data: Utils.numbers({count: 4, min: 0, max: 100}),
-                borderColor: Utils.CHART_COLORS.red,
+                data: [Math.random() * 100, Math.random() * 100, Math.random() * 100, Math.random() * 100],
+                borderColor: "rgba(255, 99, 132, 1)",
                 borderWidth: 2,
                 borderRadius: 10,
-                backgroundColor: Utils.transparentize(Utils.CHART_COLORS.red, 0.5),
+                backgroundColor: "rgba(255, 99, 132, 0.5)",
             }],
         },
         options: {
@@ -97,6 +97,7 @@ $$
 </script>
 
 ### Side by Side Bar Graph
+
 <div><canvas id="sideBySideBarGraphExample"></canvas></div>
 
 <script>
@@ -107,19 +108,19 @@ $$
             datasets: [
                 {
                     label: "example dataset 1",
-                    data: Utils.numbers({count: 4, min: 0, max: 100}),
-                    borderColor: Utils.CHART_COLORS.red,
+                    data: [Math.random() * 100, Math.random() * 100, Math.random() * 100, Math.random() * 100],
+                    borderColor: "rgba(255, 99, 132, 1)",
                     borderWidth: 2,
                     borderRadius: 10,
-                    backgroundColor: Utils.transparentize(Utils.CHART_COLORS.red, 0.5),
+                    backgroundColor: "rgba(255, 99, 132, 0.5)",
                 },
                 {
                     label: "example dataset 2",
-                    data: Utils.numbers({count: 4, min: 0, max: 100}),
-                    borderColor: Utils.CHART_COLORS.blue,
+                    data: [Math.random() * 100, Math.random() * 100, Math.random() * 100, Math.random() * 100],
+                    borderColor: "rgba(54, 162, 235, 1)",
                     borderWidth: 2,
                     borderRadius: 10,
-                    backgroundColor: Utils.transparentize(Utils.CHART_COLORS.blue, 0.5),
+                    backgroundColor: "rgba(54, 162, 235, 0.5)",
                 }
             ],
         },
