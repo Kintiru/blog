@@ -58,56 +58,6 @@ $$
 
 ## Bar Graph
 
-```chart
-{
-    type: 'verticalBar',
-    data: {
-        labels: ['A', 'B', 'C', 'D'],
-        datasets: [{
-            label: 'Test DataSet',
-            data: [10, 3, 30, 23],
-            borderColor: "rgba(255, 201, 14, 1)",
-            backgroundColor: "rgba(255, 201, 14, 0.5)",
-            fill: false,
-        }]
-    },
-    options: {
-        responsive: true,
-        title: {
-            display: true,
-            text: '막대 차트 테스트'
-        },
-        tooltips: {
-            mode: 'index',
-            intersect: false,
-        },
-        hover: {
-            mode: 'nearest',
-            intersect: true
-        },
-        scales: {
-            xAxes: [{
-                display: true,
-                scaleLabel: {
-                    display: true,
-                    labelString: 'x'
-                },
-            }],
-            yAxes: [{
-                display: true,
-                ticks: {
-                    autoSkip: false,
-                },
-                scaleLabel: {
-                    display: true,
-                    labelString: 'y'
-                }
-            }]
-        }
-    }
-}
-```
-
 <div style="width:100%;">
 <canvas id="barGraph" height="300"></canvas>
 </div>
