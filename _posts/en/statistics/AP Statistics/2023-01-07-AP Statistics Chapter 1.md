@@ -30,12 +30,20 @@ Include script per post to prevent version break and better per post management
   - [Dotplots](#dotplots)
   - [Histogram](#histogram)
   - [Shape](#shape)
+    - [Unimodal](#unimodal)
+    - [Multimodal (2 or more peaks)\*\*](#multimodal-2-or-more-peaks)
   - [Stemplots](#stemplots)
   - [Boxplot](#boxplot)
 - [Description of Quantitative Data](#description-of-quantitative-data)
   - [Center](#center)
+    - [Mean](#mean)
+    - [Median](#median)
   - [Shape](#shape-1)
   - [Variability](#variability)
+    - [Range](#range)
+    - [Standard Deviation](#standard-deviation)
+    - [IQR](#iqr)
+    - [Variance](#variance)
   - [Outliers](#outliers)
 
 ---
@@ -255,9 +263,9 @@ $$
 
 ## Shape
 
-> Unimodal
+### Unimodal
 
-> Multimodal (2 or more peaks)
+### Multimodal (2 or more peaks)**
 
 ## Stemplots
 
@@ -269,20 +277,20 @@ Before going into boxplot, I recommend reading [Description of Quantitative Data
 
 ## Center
 
-> Mean
+### Mean
 
-> Median
+### Median
 
 ## Shape
 
 ## Variability
 
-> Range
+### Range
 
-> Standard Deviation
+### Standard Deviation
 
-> IQR
+### IQR
 
-> Variance
+### Variance
 
 ## Outliers
