@@ -165,7 +165,62 @@ $$
         },
     });
 </script>
+
 ### Segmented Bar Graph
+
+<div><canvas id="segmentedBarGraphExample"></canvas></div>
+
+<script>
+    const segmentedBarGraphExample = new Chart(document.getElementById('segmentedBarGraphExample'),{
+        type: 'bar',
+        data: {
+            labels: ['A', 'B', 'C', 'D'],
+            datasets: [
+                {
+                    label: "example dataset 1",
+                    data: [Math.random() * 100, Math.random() * 100, Math.random() * 100, Math.random() * 100],
+                    borderColor: "rgba(255, 99, 132, 1)",
+                    borderWidth: 0,
+                    borderRadius: 5,
+                    backgroundColor: "rgba(255, 99, 132, 0.5)",
+                    stack: 'Stack 0',
+                },
+                {
+                    label: "example dataset 2",
+                    data: [Math.random() * 100, Math.random() * 100, Math.random() * 100, Math.random() * 100],
+                    borderColor: "rgba(54, 162, 235, 1)",
+                    borderWidth: 0,
+                    borderRadius: 5,
+                    backgroundColor: "rgba(54, 162, 235, 0.5)",
+                    stack: 'Stack 0',
+                }
+            ],
+        },
+        options: {
+            responsive: true,
+            interaction: {
+                intersect: false,
+            },
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                title: {
+                    display: true,
+                    text: 'Example Side by Side Bar Graph',
+                },
+            },
+            scales: {
+                x: {
+                    stacked: true,
+                },
+                y: {
+                    stacked: true,
+                },
+            },
+        },
+    });
+</script>
 
 # Quantative Data Analysis
 
