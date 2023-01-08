@@ -78,7 +78,7 @@ $$
             labels: ['A', 'B', 'C', 'D'],
             datasets: [{
                 label: "example dataset",
-                data: [Math.random() * 100, Math.random() * 100, Math.random() * 100, Math.random() * 100],
+                data: Util.numbers({count: 4, min: 0, max: 100}),
                 borderColor: "rgba(255, 99, 132, 1)",
                 borderWidth: 2,
                 borderRadius: 10,
