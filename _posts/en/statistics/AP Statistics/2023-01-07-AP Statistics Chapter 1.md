@@ -62,6 +62,8 @@ Association : Relativeness of two variables
 
 # 1.1 Categorical Data Analysis
 
+Since I think visual explains all of the charts, I will barely add explations in text for charts.
+
 ## Pie Chart
 
 <div style="width:70%;"><canvas id="pieChartExample"></canvas></div>
