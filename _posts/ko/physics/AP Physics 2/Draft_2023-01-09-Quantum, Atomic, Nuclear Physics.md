@@ -1,6 +1,6 @@
 ---
-title: ''
-date: -- ::00 +0900
+title: 'Quantum, Atomic, Nuclear Physics'
+date: 2023-01-09 09:00:00 +0900
 author: kintiru
 categories: [Korean, Physics]   # [TOP_CATEGORIE, SUB_CATEGORIE]
 tags: [Korean, AP Physics 2, Physics]     # TAG names should always be lowercase
