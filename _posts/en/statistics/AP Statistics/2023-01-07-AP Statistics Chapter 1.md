@@ -3,7 +3,7 @@ title: 'AP Statistics Chapter 1: Data Analysis'
 date: 2023-01-07 16:00:00 +0900
 author: kintiru
 categories: [English, Statistics]   # [TOP_CATEGORIE, SUB_CATEGORIE]
-tags: [English, Statistics, AP Statistics]     # TAG names should always be lowercase
+tags: [English, Statistics, AP Statistics, Math]     # TAG names should always be lowercase
 math: true
 mermaid: true
 #img_path: 
