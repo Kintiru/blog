@@ -22,35 +22,47 @@ $$
 \int \frac{d}{dx} \big[ fg \big] dx &= \int f' \cdot g \,dx + \int g' \cdot f \,dx \\
 fg &= \int f' \cdot g \,dx + \int g' \cdot f \,dx \\
 \int f' \cdot g \,dx &= fg - \int g' \cdot f \,dx \\
-\text{then} \\
+\end{align}
+$$
+Then, we can set g and f to other variable.
+$$
+\begin{align}
 g &= \, u \,, f = v \\
 g' \,dx &= \, du \,, f' \,dx = dv \\
- \text{therefore, } \\
- \int u \,dv &= \,uv - \int v \,du \\
 \end{align}
 $$
 
-But I prefer the form of
+then we can rewrite the equation like below.
 
 $$
-\begin{alignat}{}
+\begin{align}
+\int u \,dv = \,uv - \int v \,du \\
+\end{align}
+$$
+
+But I prefer the form of because we are not farmilar with `udv`, `uv`, or `vdu`.  
+
+$$
+\begin{align}
 \int g \cdot f' \,dx = gf - \int g' \cdot f \,dx 
-\end{alignat}
+\end{align}
 $$
 
-or if we swich f and g,
+or if we swich f and g, we can also write like below.
 
 $$
-\begin{alignat}{}
+\begin{align}
 \int f \cdot g' \,dx = fg - \int f' \cdot g \,dx 
-\end{alignat}
+\end{align}
 $$
 
 # LIPET
 
 The preference of choosing g, or u which is
  - the part that are not integrating
- - In other words, the part we are taking derivative
+ - In other words, the part we are going to differentiate
+
+`g(x)`, or `u` (to be differentiated)
 
 L: Logrithm
 
@@ -61,6 +73,8 @@ P: Polynomial
 E: Exponential
 
 T: Trigonometry
+
+`f(x)`, or `v` (to be integrated)
 
 # Example
 
