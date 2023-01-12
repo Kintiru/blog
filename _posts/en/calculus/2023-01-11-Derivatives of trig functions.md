@@ -72,7 +72,7 @@ y &= \tan (x) = \frac{\sin(x)}{\cos(x)}=\sin(x)(\cos(x))^{-1} \\
 &= 1 + \sin(x)\cdot(-1)(\cos(x))^{-2}\cdot(-\sin(x)) \\
 &= 1 + \sin^2(x)\cdot(\cos(x))^{-2} \\
 &= 1 + \frac{\sin^2(x)}{\cos^2(x)} \\
-&= 1 + \tan^2(x) \quad \larr \text{trig identity}\\
+&= 1 + \tan^2(x) \quad \leftarrow \text{trig identity}\\
 &= \sec^2(x)
 \end{align}
 $$
@@ -118,7 +118,7 @@ y &= \cot (x) = \frac{\cos(x)}{\sin(x)}=\cos(x)(\sin(x))^{-1} \\
 &= -1 - \cos^2(x)\cdot(\sin(x))^{-2} \\
 &= -1 - \frac{\cos^2(x)}{\sin^2(x)} \\
 &= -1 - \cot^2(x) \\
-&= -(1 + \cot^2(x)) \quad \larr \text{trig identity} \\
+&= -(1 + \cot^2(x)) \quad \leftarrow \text{trig identity} \\
 &= -\csc^2(x)
 \end{align}
 $$
