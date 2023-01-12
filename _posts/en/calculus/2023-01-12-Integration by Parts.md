@@ -15,6 +15,8 @@ toc: true
 #pin: true
 ---
 
+Integration by parts is a method to find a interal of product of functions
+
 # Proof
 
 $$
@@ -93,7 +95,7 @@ $$
 \end{alignat}
 $$
 
-and I will set e^x^ as g, the term we are going to take derivative,  following LIPET.
+and I will set e<sup>x</sup> as `g`, the term we are going to take derivative,  following LIPET.
 
 $$
 \begin{align}
