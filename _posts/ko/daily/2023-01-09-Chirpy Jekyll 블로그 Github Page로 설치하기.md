@@ -6,6 +6,7 @@ categories: [Korean, Daily]   # [TOP_CATEGORIE, SUB_CATEGORIE]
 tags: [Korean, Daily]     # TAG names should always be lowercase
 math: true
 mermaid: true
+toc: true
 #img_path: 
 image: #preview image
     path: https://chirpy-img.netlify.app/commons/devices-mockup.png
