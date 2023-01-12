@@ -17,34 +17,35 @@ mermaid: true
 # Proof
 
 $$
-\begin{align}
-\frac{d}{dx} \big[ fg \big] &= f' \cdot g + g' \cdot f \\
-\int \frac{d}{dx} \big[ fg \big] dx &= \int f' \cdot g \,dx + \int g' \cdot f \,dx \\
-fg &= \int f' \cdot g \,dx + \int g' \cdot f \,dx \\
-\int f' \cdot g \,dx &= fg - \int g' \cdot f \,dx \\
-\text{then} \\
-g &= u \,, f = v \\
-g' \,dx &= du \,, f' \,dx = dv \\
-\text{therefore, } \\
-\int u \,dv &= uv - \int v \,du \\
-\end{align}
+\begin{alignat}{}
+&&\frac{d}{dx} \big[ fg \big] =& f' \cdot g + g' \cdot f \\
+&&\int \frac{d}{dx} \big[ fg \big] dx =& \int f' \cdot g \,dx + \int g' \cdot f \,dx \\
+&&fg =& \int f' \cdot g \,dx + \int g' \cdot f \,dx \\
+&&\int f' \cdot g \,dx =& fg - \int g' \cdot f \,dx \\
+& \text{then} & \\
+&&g =& \, u \,, f = v \\
+&&g' \,dx =& \, du \,, f' \,dx = dv \\
+& \text{therefore, } \\
+&& \int u \,dv =& \,uv - \int v \,du \\
+\end{alignat}
 $$
 
 But I prefer the form of
 
 $$
-\begin{align}
+\begin{alignat}{}
 \int g \cdot f' \,dx = gf - \int g' \cdot f \,dx 
-\end{align}
+\end{alignat}
 $$
 
 or if we swich f and g,
 
 $$
-\begin{align}{}
+\begin{alignat}{}
 \int f \cdot g' \,dx = fg - \int f' \cdot g \,dx 
-\end{align}
+\end{alignat}
 $$
+
 # LIPET
 
 The preference of choosing g, or u which is
