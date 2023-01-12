@@ -52,10 +52,10 @@ y &= \cos (x) \\
 &= \lim_{h \to 0}{ \frac{\cos(x)\cos(h)-\sin(x)\sin(h)-\cos(x)}{h} } \\
 &= \lim_{h \to 0}{ \frac{\cos(x)(\cos(h)-1)-\sin(x)\sin(h)}{h} } \\
 &= \lim_{h \to 0}{ \frac{\cos(x)(\cos(h)-1)}{h} - \frac{\sin(x)\sin(h)}{h} } \\
-&= \lim_{h \to 0}{ \cos(x)\frac{(\cos(h)-1)(\cos(h)+1)}{h(\cos(h)+1)} - \sin(x)\cdot\frac{{\sin(h)}}{{h}} } \\
-&= \lim_{h \to 0}{ \cos(x)\frac{\cos^2(h)-1}{h(\cos(h)+1)} - \sin(x)\cdot\frac{{\sin(h)}}{{h}}} \\
-&= \lim_{h \to 0}{ \cos(x)\frac{-\sin^2(h)}{h(\cos(h)+1)} - \sin(x)\cdot\frac{{\sin(h)}}{{h}}} \\
-&= \lim_{h \to 0}{ \cos(x)\frac{{\sin(h)}}{{h}} \cdot \frac{-\sin(h)}{(\cos(h)+1)} - \sin(x)\cdot\frac{{\sin(h)}}{{h}}} \\
+&= \lim_{h \to 0}{ \cos(x) \frac{(\cos(h)-1)( \cos(h)+1) }{ h(\cos(h)+1) } - \sin(x) \cdot \frac{ \sin(h) }{ h } } \\
+&= \lim_{h \to 0}{ \cos(x) \frac{\cos^2(h)-1}{h(\cos(h)+1)} - \sin(x)\cdot\frac{\sin(h)}{h} } \\
+&= \lim_{h \to 0}{ \cos(x) \frac{-\sin^2(h)}{h(\cos(h)+1)} - \sin(x)\cdot\frac{\sin(h)}{h} } \\
+&= \lim_{h \to 0}{ \cos(x) \frac{\sin(h)}{h} \cdot \frac{-\sin(h)}{(\cos(h)+1)} - \sin(x) \cdot \frac{\sin(h)}{h} } \\
 &= \lim_{h \to 0}{ \cos(x) \cdot 1 \cdot \frac{0}{2} - \sin(x) \cdot 1 } \\
 &= \lim_{h \to 0}{ 0 - \sin(x) } \\
 &= - \sin(x)
@@ -154,7 +154,7 @@ x &= \sqrt{1 - y^2} \\
 \frac{dx}{dy} &= \frac{\cancel{2}y}{\cancel{2}\sqrt{1-y^2}} \\
 \frac{dx}{d\theta}\cdot\frac{d\theta}{dy} &= \frac{y}{\sqrt{1-y^2}} \\
 \frac{d\cos(\theta)}{d\theta}\cdot\frac{d\theta}{dy} &= \frac{y}{\sqrt{1-y^2}} \\
-(-1)(\cancel{\sin(\theta)})\cdot\frac{d\theta}{dy} &= \frac{\cancel{\sin(\theta})}{\sqrt{1-y^2}} \\
+(-1)(\cancel{\sin(\theta)})\cdot\frac{d\theta}{dy} &= \frac{\cancel{\sin(\theta)}}{\sqrt{1-y^2}} \\
 \frac{d\theta}{dy} &= -\frac{1}{\sqrt{1-y^2}} 
 \end{align}
 $$
