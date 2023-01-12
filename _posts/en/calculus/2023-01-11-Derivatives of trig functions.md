@@ -57,8 +57,8 @@ y &= \cos (x) \\
 &= \lim_{h \to 0}{ \cos(x)\frac{-\sin^2(h)}{h(\cos(h)+1)} - \sin(x)\cdot\frac{{\sin(h)}}{{h}}} \\
 &= \lim_{h \to 0}{ \cos(x)\frac{{\sin(h)}}{{h}} \cdot \frac{-\sin(h)}{(\cos(h)+1)} - \sin(x)\cdot\frac{{\sin(h)}}{{h}}} \\
 &= \lim_{h \to 0}{ \cos(x) \cdot 1 \cdot \frac{0}{2} - \sin(x) \cdot 1 } \\
-&= \lim_{h \to 0}{ 0 - \sin(x)} \\
-&= -\sin(x)
+&= \lim_{h \to 0}{ 0 - \sin(x) } \\
+&= - \sin(x)
 \end{align}
 $$
 
