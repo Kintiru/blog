@@ -154,7 +154,7 @@ y &= \sqrt{1 - x^2} \\
 \frac{dy}{dx} &= \frac{-\cancel{2}x}{\cancel{2}\sqrt{1-x^2}} \\
 \frac{dy}{d\theta}\cdot\frac{d\theta}{dx} &= -\frac{x}{\sqrt{1-x^2}} \\
 \frac{d\sin(\theta)}{d\theta}\cdot\frac{d\theta}{dx} &= -\frac{x}{\sqrt{1-x^2}} \\
-\cancel{\cos(\theta)}\cdot\frac{d\theta}{dx} &= -\frac{\cancel{\cos(\theta})}{\sqrt{1-x^2}} \\
+\cancel{\cos(\theta)}\cdot\frac{d\theta}{dx} &= -\frac{\cancel{\cos(\theta)}}{\sqrt{1-x^2}} \\
 \frac{d\theta}{dx} &= -\frac{1}{\sqrt{1-x^2}} 
 \end{align}
 $$
