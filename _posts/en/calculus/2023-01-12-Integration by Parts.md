@@ -76,6 +76,10 @@ T: Trigonometry
 
 `f(x)`, or `v` (to be integrated)
 
+However, this does not always apply. For example, transcendental function would be more complicated when we integrate it.
+
+In those cases, Fourier transform, Laplace transform, Taylor series, or gaussian integration (or etc) might be required, but I I do not think it would be assessed in Calc BC.
+
 # Example
 
 In here, I will use form of 
