@@ -42,12 +42,12 @@ or if we swich f and g,
 
 $$
 \begin{align}{}
-\int f \cdot g' \,dx = fg - \int g' \cdot g \,dx 
+\int f \cdot g' \,dx = fg - \int f' \cdot g \,dx 
 \end{align}
 $$
 # LIPET
 
-The preference of choosing g, or v which is
+The preference of choosing g, or u which is
  - the part that are not integrating
  - In other words, the part we are taking derivative
 
