@@ -17,7 +17,7 @@ mermaid: true
 # Proof
 
 $$
-\begin{alignat}{}
+\begin{align}
 \frac{d}{dx} \big[ fg \big] &= f' \cdot g + g' \cdot f \\
 \int \frac{d}{dx} \big[ fg \big] dx &= \int f' \cdot g \,dx + \int g' \cdot f \,dx \\
 fg &= \int f' \cdot g \,dx + \int g' \cdot f \,dx \\
@@ -27,23 +27,23 @@ g &= u \,, f = v \\
 g' \,dx &= du \,, f' \,dx = dv \\
 \text{therefore, } \\
 \int u \,dv &= uv - \int v \,du \\
-\end{alignat}
+\end{align}
 $$
 
 But I prefer the form of
 
 $$
-\begin{alignat}{}
+\begin{align}
 \int g \cdot f' \,dx = gf - \int g' \cdot f \,dx 
-\end{alignat}
+\end{align}
 $$
 
 or if we swich f and g,
 
 $$
-\begin{alignat}{}
+\begin{align}{}
 \int f \cdot g' \,dx = fg - \int g' \cdot g \,dx 
-\end{alignat}
+\end{align}
 $$
 # LIPET
 
@@ -74,13 +74,13 @@ $$
 and I will set e^x^ as g, the term we are going to take derivative,  following LIPET.
 
 $$
-\begin{alignat}{}
+\begin{align}
 \int e^x \cos(x) \,dx &= e^x \sin(x) - \int e^x \sin(x)\, dx \\
 \int e^x \cos(x) \,dx &= e^x \sin(x) - \left( -e^x\cos(x) - (-1) \int e^x  \cos(x)\, dx \right) \\
 \int e^x \cos(x) \,dx &= e^x \sin(x) - \left( -e^x\cos(x) + \int e^x  \cos(x)\, dx \right) \\
 \int e^x \cos(x) \,dx &= e^x \sin(x) + e^x\cos(x) - \int e^x  \cos(x)\, dx  \\
 2 \int e^x \cos(x) \,dx &= e^x \sin(x) + e^x\cos(x) \\
 \int e^x \cos(x) \,dx &= \frac{ e^x \sin(x) + e^x\cos(x) }{2} + C\\
-\end{alignat}
+\end{align}
 $$
 
