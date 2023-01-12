@@ -17,17 +17,17 @@ mermaid: true
 # Proof
 
 $$
-\begin{alignat}{}
-&&\frac{d}{dx} \big[ fg \big] =& f' \cdot g + g' \cdot f \\
-&&\int \frac{d}{dx} \big[ fg \big] dx =& \int f' \cdot g \,dx + \int g' \cdot f \,dx \\
-&&fg =& \int f' \cdot g \,dx + \int g' \cdot f \,dx \\
-&&\int f' \cdot g \,dx =& fg - \int g' \cdot f \,dx \\
-& \text{then} & \\
-&&g =& \, u \,, f = v \\
-&&g' \,dx =& \, du \,, f' \,dx = dv \\
-& \text{therefore, } \\
-&& \int u \,dv =& \,uv - \int v \,du \\
-\end{alignat}
+\begin{align}
+\frac{d}{dx} \big[ fg \big] &= f' \cdot g + g' \cdot f \\
+\int \frac{d}{dx} \big[ fg \big] dx &= \int f' \cdot g \,dx + \int g' \cdot f \,dx \\
+fg &= \int f' \cdot g \,dx + \int g' \cdot f \,dx \\
+\int f' \cdot g \,dx &= fg - \int g' \cdot f \,dx \\
+\text{then} \\
+g &= \, u \,, f = v \\
+g' \,dx &= \, du \,, f' \,dx = dv \\
+ \text{therefore, } \\
+ \int u \,dv &= \,uv - \int v \,du \\
+\end{align}
 $$
 
 But I prefer the form of
