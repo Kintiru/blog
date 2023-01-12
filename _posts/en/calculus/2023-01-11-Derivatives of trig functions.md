@@ -132,13 +132,13 @@ $$
 y &= \sin(\theta) \\
 x &= \cos(\theta) \\
 x&^2+y^2=1 \\
-y^2 &= 1 - x^2 \\
-y &= \sqrt{1 - x^2} \\
-\frac{dy}{dx} &= \frac{\cancel{2}x}{\cancel{2}\sqrt{1-x^2}} \\
-\frac{dy}{d\theta}\cdot\frac{d\theta}{dx} &= \frac{x}{\sqrt{1-x^2}} \\
-\frac{d\sin(\theta)}{d\theta}\cdot\frac{d\theta}{dx} &= \frac{x}{\sqrt{1-x^2}} \\
-\cancel{\cos(\theta)}\cdot\frac{d\theta}{dx} &= \frac{\cancel{\cos(\theta})}{\sqrt{1-x^2}} \\
-\frac{d\theta}{dx} &= \frac{1}{\sqrt{1-x^2}} 
+x^2 &= 1 - y^2 \\
+x &= \sqrt{1 - y^2} \\
+\frac{dx}{dy} &= \frac{-\cancel{2}y}{\cancel{2}\sqrt{1-y^2}} \\
+\frac{dx}{d\theta}\cdot\frac{d\theta}{dy} &= \frac{-y}{\sqrt{1-y^2}} \\
+\frac{d\cos(\theta)}{d\theta}\cdot\frac{d\theta}{dy} &= \frac{-y}{\sqrt{1-y^2}} \\
+\cancel{(-\sin(\theta))}\cdot\frac{d\theta}{dy} &= \frac{\cancel{-\sin(\theta)}}{\sqrt{1-y^2}} \\
+\frac{d\theta}{dy} &= \frac{1}{\sqrt{1-y^2}} 
 \end{align}
 $$
 
@@ -149,13 +149,13 @@ $$
 y &= \sin(\theta) \\
 x &= \cos(\theta) \\
 x&^2+y^2=1 \\
-x^2 &= 1 - y^2 \\
-x &= \sqrt{1 - y^2} \\
-\frac{dx}{dy} &= \frac{\cancel{2}y}{\cancel{2}\sqrt{1-y^2}} \\
-\frac{dx}{d\theta}\cdot\frac{d\theta}{dy} &= \frac{y}{\sqrt{1-y^2}} \\
-\frac{d\cos(\theta)}{d\theta}\cdot\frac{d\theta}{dy} &= \frac{y}{\sqrt{1-y^2}} \\
-(-1)(\cancel{\sin(\theta)})\cdot\frac{d\theta}{dy} &= \frac{\cancel{\sin(\theta)}}{\sqrt{1-y^2}} \\
-\frac{d\theta}{dy} &= -\frac{1}{\sqrt{1-y^2}} 
+y^2 &= 1 - x^2 \\
+y &= \sqrt{1 - x^2} \\
+\frac{dy}{dx} &= \frac{-\cancel{2}x}{\cancel{2}\sqrt{1-x^2}} \\
+\frac{dy}{d\theta}\cdot\frac{d\theta}{dx} &= -\frac{x}{\sqrt{1-x^2}} \\
+\frac{d\sin(\theta)}{d\theta}\cdot\frac{d\theta}{dx} &= -\frac{x}{\sqrt{1-x^2}} \\
+\cancel{\cos(\theta)}\cdot\frac{d\theta}{dx} &= -\frac{\cancel{\cos(\theta})}{\sqrt{1-x^2}} \\
+\frac{d\theta}{dx} &= -\frac{1}{\sqrt{1-x^2}} 
 \end{align}
 $$
 
