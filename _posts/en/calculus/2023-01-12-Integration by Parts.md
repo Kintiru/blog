@@ -6,7 +6,6 @@ categories: [English, Calculus]   # [TOP_CATEGORIE, SUB_CATEGORIE]
 tags: [English, Calculus, AP Calculus BC, Math]     # TAG names should always be lowercase
 math: true
 mermaid: true
-toc: true
 #img_path: 
 #image: #preview image
     #path:
@@ -27,7 +26,9 @@ fg &= \int f' \cdot g \,dx + \int g' \cdot f \,dx \\
 \int f' \cdot g \,dx &= fg - \int g' \cdot f \,dx \\
 \end{align}
 $$
+
 Then, we can set g and f to other variable.
+
 $$
 \begin{align}
 g &= \, u \,, f = v \\
