@@ -160,9 +160,13 @@ S &= \left| a(\beta - \alpha)^{m+n+1} \cdot \frac{m(m-1)}{(n+1)(n+2)} \left[ \in
 
 & \qquad\qquad\qquad\qquad\qquad\qquad \vdots \\
 
+S &= \left| a(\beta - \alpha)^{m+n+1} \frac{m!}{(n+1)(n+2)\cdots(n+m)}\left[ \int_0^1 u^{m-m}(u - 1)^{n+m} du \right] \right| \\
+S &= \left| a(\beta - \alpha)^{m+n+1} \frac{m!}{(n+1)(n+2)\cdots(n+m)}\left[ \int_0^1 (u - 1)^{n+m} du \right] \right| \\
+S &= \left| a(\beta - \alpha)^{m+n+1} \frac{m!}{(n+1)(n+2)\cdots(n+m)(n+m+1)}\left[  (u - 1)^{n+m+1} du \right]_0^1 \right| \\
 S &= \left| a(\beta - \alpha)^{m+n+1} \frac{m!}{(n+1)(n+2)\cdots(n+m+1)} \right| \\
 S &= \left| a(\beta - \alpha)^{m+n+1} \frac{n!m!}{n!(n+1)(n+2)\cdots(n+m+1)} \right| \\
 
 &= \left| a\frac{m!n!}{(m+n+1)!}(\beta - \alpha)^{m+n+1} \right|
 \end{align}
 $$
+
