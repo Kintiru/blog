@@ -20,3 +20,7 @@ Include script per post to prevent version break and better per post management
 
 
 De Broglie: Particles as waves
+
+In a simplistic model of a single electron orbiting a nucleus, the possible orbits of the electron have circumferences that are integer multiples of the de Broglie wavelength of the electron.
+
+Thus, Single-electron atoms absorb photons with only specific, discrete energies.
