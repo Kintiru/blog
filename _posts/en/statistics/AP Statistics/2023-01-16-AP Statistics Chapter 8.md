@@ -31,7 +31,7 @@ mermaid: true
 ![Margin of Error Diagram](/assets/img/2023/01/margin-of-error-diagram.svg)
 _Margin of Error Diagram_
 
-`Critical Value` : 
+`Critical Value` : Multiplier of standard deviation to define margin of error
 
 $$
 \begin{gather}
@@ -40,6 +40,11 @@ $$
 \mu_x \pm 2 \sigma_x
 \end{gather}
 $$
+
+> This is AP definition of Critical Value
+>
+> The Real Definition is different
+{: .prompt-warning}
 
 ### Interpretaton of Confidence Interval
 
