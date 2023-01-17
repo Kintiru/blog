@@ -25,7 +25,7 @@ Include script per post to prevent version break and better per post management
 
 # 1. 블로그 테마 clone 하기
 
-![Chirpy Docs](../../../assets/img/2023/01/2023-01-09%20202949.png)
+![Chirpy Docs](/assets/img/2023/01/2023-01-09%20202949.png)
 _Chirpy README 페이지_
 
 여기에 파란색으로 적혀있는 Chirpy Starter를 누르면 새로운 Repository를 만드는 창이 나오는데 거기에 레포 이름을 기입하면 된다.
@@ -42,7 +42,7 @@ _Chirpy README 페이지_
 
 # Github Page 설정하기
 
-![Github Page 설정 창](../../../assets/img/2023/01/2023-01-09%20203626.png)
+![Github Page 설정 창](/assets/img/2023/01/2023-01-09%20203626.png)
 
 방금 만든 Repo > Setting에 들어가면 Page라는 옵션이 보일 텐데, 그걸 클릭하면 위와 같은 창이 뜬다. 여기서 Source 아래에 있는 드롭다운을 클릭해서 Github Actions를 선택한다.
 

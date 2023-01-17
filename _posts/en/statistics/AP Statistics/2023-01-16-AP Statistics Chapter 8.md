@@ -1,6 +1,6 @@
 ---
 title: 'AP Statistics Chapter 8: Proportion Estimation with Confidence'
-date: 2023-01-06 19:50:00 +0900
+date: 2023-01-16 19:50:00 +0900
 author: kintiru
 categories: [English, Statistics]   # [TOP_CATEGORIE, SUB_CATEGORIE]
 tags: [English, Statistics, AP Statistics, Math]     # TAG names should always be lowercase
@@ -28,7 +28,7 @@ mermaid: true
 
 `Margin of Error` : How much the true parameter can vary from `Point Estimate`.
 
-![Margin of Error Diagram](../../../../assets/img/2023/01/margin-of-error-diagram.svg)
+![Margin of Error Diagram](/assets/img/2023/01/margin-of-error-diagram.svg)
 _Margin of Error Diagram_
 
 `Critical Value` : 
