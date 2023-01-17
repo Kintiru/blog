@@ -28,7 +28,7 @@ mermaid: true
 
 `Margin of Error` : How much the true parameter can vary from `Point Estimate`.
 
-![Margin of Error Diagram](../../../../assets/img/2023/01/margin%20of%20error%20diagram.png)
+![Margin of Error Diagram](../../../../assets/img/2023/01/margin-of-error-diagram.svg)
 _Margin of Error Diagram_
 
 `Critical Value` : 
