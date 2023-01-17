@@ -21,6 +21,8 @@ timezone: Asia/Seoul
 
 title: "Kintiru's Page"                          # the main title
 
+excerpt_separator: <!--more-->
+
 tagline: I Know Nothing   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
