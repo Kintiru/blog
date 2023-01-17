@@ -43,7 +43,7 @@ $$
 
 > This is AP definition of Critical Value
 >
-> The Real Definition is different
+> The real definition is different: the boundaries of the acceptance region of the test. [^1]
 {: .prompt-warning}
 
 ### Interpretaton of Confidence Interval
@@ -89,3 +89,5 @@ Will be added later
 # 8.3 Proportion Difference Estimation
 
 Will be added later
+
+[^1]: https://en.wikipedia.org/wiki/Critical_value#Statistics
