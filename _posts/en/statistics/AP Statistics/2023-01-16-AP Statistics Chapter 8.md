@@ -22,15 +22,18 @@ AP Statistics Chapter 8 note about confidence and estimation
 
 ## Vocabulary
 
-`Point Estimator` : a statistic that provides an estimate of a population parameter.
+`Point Estimator` : a statistic that provides an estimate of a population parameter. (or the formula)
 
-`Point Estimate` : value of `Point Estimator` from a sample.
+`Point Estimate` : value of `Point Estimator` from a sample. (or the value of the formula)
 
 `Confidence Interval` : interval of plausible values for a parameter based on sample data.
 
-`Confidence Level` : success rate of the method used to calculate the confidence interval. Usually expressed in %.
+`Confidence Level` : success rate of the method used to calculate the confidence interval. Usually expressed in `C%`.
 
 `Margin of Error` : How much the true parameter can vary from `Point Estimate`.
+
+> MOE accounts for sampling variability, not bias
+{: .prompt-danger}
 
 ![Margin of Error Diagram](/assets/img/2023/01/margin-of-error-diagram.svg)
 _Margin of Error Diagram_
@@ -52,7 +55,7 @@ $$
 
 ### Interpretaton of Confidence Interval
 
-We are `C%` of confident that the interval from `a` to `b` would capture `parameter`
+We are `C%` of confident that the interval from `a` to `b` would capture `parameter in context`
 
 > Parameter should be in context
 > 
@@ -96,4 +99,4 @@ Will be added later
 
 ---
 
-[^1]: https://en.wikipedia.org/wiki/Critical_value#Statistics
+[^1]: [https://en.wikipedia.org/wiki/Critical_value#Statistics](https://en.wikipedia.org/wiki/Critical_value#Statistics)
