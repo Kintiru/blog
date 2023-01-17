@@ -50,15 +50,15 @@ Include script per post to prevent version break and better per post management
 
 # Vocabularies
 
-Quantitative Data : Data that represents amounts
+`Quantitative Data` : Data that represents amounts
 
-Categorical Data : Data that represents groups (classifications)
+`Categorical Data` : Data that represents groups (classifications)
 
-Frequency : Actual count of data
+`Frequency` : Actual count of data
 
-Relative Frequency : Percentage of data
+`Relative Frequency` : Percentage of data
 
-Association : Relativeness of two variables
+`Association` : Relativeness of two variables
 
 # 1.1 Categorical Data Analysis
 
