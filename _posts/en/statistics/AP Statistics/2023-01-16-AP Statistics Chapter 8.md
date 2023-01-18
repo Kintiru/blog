@@ -14,10 +14,6 @@ mermaid: true
 #pin: true
 ---
 
-AP Statistics Chapter 8 note about confidence and estimation
-
-<!--more-->
-
 # 8.1 Confidence Interval
 
 ## Vocabulary
