@@ -76,11 +76,11 @@ In many random samples, about `C%` of confidence intervals would capture `parame
 
 Margin of Error is related to standard deviation.
 
- - Within 1 standard deviation: 67%
+ - Within 1 standard deviation: 68%
  - Within 2 standard deviation: 95%
  - Within 3 standard deviation: 99.7%
   
-It is because in sampling distribution, 67% of random samples would be in 1 standard devation, so 67% of random samples would capture parameter in their confidence interval.
+It is because in sampling distribution, 68% of random samples would be in 1 standard devation, so 68% of random samples would capture parameter in their confidence interval.
 
 Allowing more errors would have higher confidence interval.
 
