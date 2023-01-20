@@ -52,7 +52,7 @@ $$
 > The real definition is different: the boundaries of the acceptance region of the test. [^1]
 {: .prompt-warning}
 
-### Interpretaton of Confidence Interval
+## Interpretaton of Confidence Interval
 
 We are `C%` of confident that the interval from `a` to `b` would capture `parameter in context`
 
@@ -65,14 +65,14 @@ Also, we cannot say that there is convincing evidence if the value is in the int
 
 For example, there is no convincing evidence that the population proportion is over 0.5 when we have `[0.49,0.59]` Confidence Interval of proportion.
 
-### Interpretaton of Confidence Level
+## Interpretaton of Confidence Level
 
 In many random samples, about `C%` of confidence intervals would capture `parameter`
 
 > Parameter should be in context here too
 {: .prompt-info}
 
-### Margin of Error
+## Margin of Error
 
 Margin of Error is related to standard deviation.
 
@@ -91,6 +91,19 @@ Then it would have 100% confidence level.
 But, this won't explain anything.
 
 So we have to trade off between `precision` and `confidence`.
+
+### Reudicing Margin of Error
+
+ 1. Reduce sampling variability
+    - Increase sample size
+    - Better study design (startifying, blocking, etc)
+ 2. Reduce confidence level
+
+## Conditions for Confidence Interval
+
+ 1. Random
+ 2. Normality
+ 3. Independence
 
 # 8.2 Population Proportion Estimation
 
