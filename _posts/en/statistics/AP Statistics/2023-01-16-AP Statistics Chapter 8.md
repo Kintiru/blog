@@ -26,6 +26,9 @@ mermaid: true
 
 `Confidence Level` : success rate of the method used to calculate the confidence interval. Usually expressed in `C%`.
 
+> Confidence Level is not a probability when interpreting a single Confidence Interval
+{: .prompt-danger}
+
 `Margin of Error` : How much the true parameter can vary from `Point Estimate`.
 
 > MOE accounts for sampling variability, not bias
@@ -57,6 +60,10 @@ We are `C%` of confident that the interval from `a` to `b` would capture `parame
 > 
 > For example: the mean number of shoes students in the United States own
 {: .prompt-info}
+
+Also, we cannot say that there is convincing evidence if the value is in the interval.
+
+For example, there is no convincing evidence that the population proportion is over 0.5 when we have `[0.49,0.59]` Confidence Interval of proportion.
 
 ### Interpretaton of Confidence Level
 
