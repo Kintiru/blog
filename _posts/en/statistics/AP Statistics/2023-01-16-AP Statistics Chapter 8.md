@@ -52,6 +52,13 @@ $$
 > The real definition is different: the boundaries of the acceptance region of the test. [^1]
 {: .prompt-warning}
 
+`Standard Error` : Variability across samples of a population (sampling distribution).
+
+> `Standard Error` is used when population parameter is unknown.
+>
+> `Standard Deviation` describes variability within a sample, while `Standard Error` describes variability across samples.
+{: .prompt-info}
+
 ## Interpretaton of Confidence Interval
 
 We are `C%` of confident that the interval from `a` to `b` would capture `parameter in context`
@@ -103,7 +110,13 @@ So we have to trade off between `precision` and `confidence`.
 
  1. Random
  2. Normality
- 3. Independence
+ 3. Independence (`10% condition`)
+
+### What if it is violated?
+
+ 1. Random - No other way than doing the study all over again
+ 2. Normality - affects the `Confidence Level` when we refer to emperical rule
+ 3. Independence - lose precision, so multiply `Finite Population Correction Factor` to the standard deviation.
 
 # 8.2 Population Proportion Estimation
 
