@@ -130,7 +130,7 @@ $$
 \end{align}
 $$
 
-where z* is |±z|
+where z* is \|±z\|
 
 ### Conditions for estimating p
 
