@@ -120,7 +120,41 @@ So we have to trade off between `precision` and `confidence`.
 
 # 8.2 Population Proportion Estimation
 
-Will be added later
+## Confidence Interval for p
+
+### Equation
+
+$$
+\begin{align}
+\hat p \pm z^* \sqrt{\frac{\hat p(1 - \hat p)}{n}}
+\end{align}
+$$
+
+where z* is |±z|
+
+### Conditions for estimating p
+
+ 1. Random
+ 2. Independence (10% Condition)
+ 3. Normality (Large Counts)
+
+When independence is met, the `standard error` is
+
+$$
+\text{SE}_p = \sqrt{\frac{\hat p(1 - \hat p)}{n}}
+$$
+
+
+### Calculating z-score values from given Confidence Level
+
+$$
+\begin{gather}
+C \text{ - Confidence Level} \\
+z^* = \text{invnorm}\left(1-\frac{C}{2}\right)
+\end{gather}
+$$
+
+`Confidence Interval` can be calculate using the z* and the `standard error`
 
 # 8.3 Proportion Difference Estimation
 
