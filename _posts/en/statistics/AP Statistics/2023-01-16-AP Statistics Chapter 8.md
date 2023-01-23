@@ -156,6 +156,13 @@ $$
 
 `Confidence Interval` can be calculate using the z* and the `standard error`
 
+### Steps of solving AP Questions
+
+ 1. State - State what are you trying to do
+ 2. Plan - Check [condtitions](#conditions-for-estimating-p)
+ 3. Do - Perform calculations
+ 4. Conclude - Interpret
+
 # 8.3 Proportion Difference Estimation
 
 Will be added later
