@@ -132,6 +132,8 @@ $$
 
 where z* is \|±z\|
 
+Table b provides z* values for certain confidence intervals.
+
 ### Conditions for estimating p
 
  1. Random
@@ -165,7 +167,42 @@ $$
 
 # 8.3 Proportion Difference Estimation
 
-Will be added later
+## Condtitions for inference of difference
+
+### Observational Studies
+
+ 1. Random - Random Sampling
+ 2. Independence - 10% Condition, and the populations are independent of each other
+$$
+\begin{gather}
+n_1 \leq 0.1 \cdot N_1 \,, \, n_2 \leq 0.1 \cdot N_2 \\
+\implies \text{SE}_{\hat p_1 - \hat p_2} = \sqrt{\frac{\hat p_1(1 - \hat p_1)}{n_1} + \frac{\hat p_2(1 - \hat p_2)}{n_2}}
+\end{gather}
+$$
+
+ 3. Shape - Large Counts (for normality)
+
+$$
+\begin{gather}
+n_1 \hat p_1 \geq 10 \,, \, n_2 \hat p_2 \geq 10 \\
+n_1(1- \hat p_1) \geq 10 \,, \, n_2 (1- \hat p_2) \geq 10 \\
+\implies \hat p_1 - \hat p_2 \sim N
+\end{gather}
+$$
+
+ ### Experiments
+
+ 1. Random - Random Assignment (a.k.a. Random Allocation)
+ 2. Indpendence - 10% condition **ONLY IF** random sampling is used
+ 3. Shape - Large Counts (for normality)
+$$
+\begin{gather}
+n_1 \hat p_1 \geq 10 \,, \, n_2 \hat p_2 \geq 10 \\
+n_1(1- \hat p_1) \geq 10 \,, \, n_2 (1- \hat p_2) \geq 10 \\
+\implies \hat p_1 - \hat p_2 \sim N
+\end{gather}
+$$
+
 
 ---
 
