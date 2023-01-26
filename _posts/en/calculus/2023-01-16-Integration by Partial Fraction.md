@@ -62,11 +62,7 @@ a \cdot g(k) + b \cdot h(k) = f(k) \\
 \end{gather}
 $$
 
-Then we can solve for b since 
-$$h(k)$$
- and 
-$$f(k)$$
- is evaluated to constant.
+Then we can solve for b since $$h(k)$$ and $$f(k)$$ is evaluated to constant.
 
 We can repeat this to solve `a` or other variables.
 

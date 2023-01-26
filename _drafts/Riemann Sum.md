@@ -20,7 +20,8 @@ Include script per post to prevent version break and better per post management
 
 # Prerequisites
 
-* Series
+* Sequences
+* Basic Integration
 
 ---
 
@@ -28,3 +29,8 @@ Riemann Sum is approximating the area with the sum of areas.
 
 # Equation
 
+$$
+\begin{gather}
+\sum f(x) \Delta x
+\end{gather}
+$$
