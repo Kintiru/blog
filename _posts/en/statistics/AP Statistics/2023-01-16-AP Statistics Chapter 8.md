@@ -174,12 +174,12 @@ $$
  1. Random - Random Sampling
  2. Independence - 10% Condition, and the populations are independent of each other
 
-$$
-\begin{gather}
-n_1 \leq 0.1 \cdot N_1 \,, \, n_2 \leq 0.1 \cdot N_2 \\
-\implies \text{SE}_{\hat p_1 - \hat p_2} = \sqrt{\frac{\hat p_1(1 - \hat p_1)}{n_1} + \frac{\hat p_2(1 - \hat p_2)}{n_2}}
-\end{gather}
-$$
+    $$
+    \begin{gather}
+    n_1 \leq 0.1 \cdot N_1 \,, \, n_2 \leq 0.1 \cdot N_2 \\
+    \implies \text{SE}_{\hat p_1 - \hat p_2} = \sqrt{\frac{\hat p_1(1 - \hat p_1)}{n_1} + \frac{\hat p_2(1 - \hat p_2)}{n_2}}
+    \end{gather}
+    $$
 
  3. Shape - Large Counts (for normality)
 
