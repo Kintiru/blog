@@ -191,7 +191,7 @@ n_1(1- \hat p_1) \geq 10 \,, \, n_2 (1- \hat p_2) \geq 10 \\
 \end{gather}
 $$
 
- ### Experiments
+### Experiments
 
  1. Random - Random Assignment (a.k.a. Random Allocation)
  2. Indpendence - 10% condition **ONLY IF** random sampling is used
