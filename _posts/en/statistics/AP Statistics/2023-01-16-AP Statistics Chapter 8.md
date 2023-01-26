@@ -91,9 +91,7 @@ It is because in sampling distribution, 68% of random samples would be in 1 stan
 
 Allowing more errors would have higher confidence interval.
 
-For example, if we have confidence interval
-$$[-\infty, \infty]$$ 
-Then it would have 100% confidence level.
+For example, if we have confidence interval $[-\infty, \infty]$, then it would have 100% confidence level.
 
 But, this won't explain anything.
 
