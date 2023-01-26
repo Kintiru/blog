@@ -127,8 +127,8 @@ $$
 \begin{align}
 \int \frac{a}{x+2} + \frac{b}{x-2} \,dx &= \int \frac{1/2}{x+2} + \frac{1/2}{x-2} \,dx \\
 &= \frac{1}{2} \int \frac{1}{x+2} + \frac{1}{x-2} \,dx \\
-&= \frac{1}{2} \left( \ln|x+2|+ \ln|x-2|  \right) \\
-&= \frac{1}{2} \ln|(x+2)(x-2)| \\
-&= \frac{1}{2} \ln|x^2 -4|
+&= \frac{1}{2} \left( \ln|x+2|+ \ln|x-2|  \right) + C\\
+&= \frac{1}{2} \ln|(x+2)(x-2)| + C\\
+&= \frac{1}{2} \ln|x^2 -4| + C
 \end{align}
 $$
