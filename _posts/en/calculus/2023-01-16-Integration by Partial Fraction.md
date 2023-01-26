@@ -93,7 +93,7 @@ b = 1 \,, a=1
 \end{gather}
 $$
 
-# Example
+# Integration Example
 
 $$
 \begin{align}
