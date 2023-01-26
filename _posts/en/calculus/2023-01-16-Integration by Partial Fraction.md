@@ -47,11 +47,7 @@ a \cdot g(x) + b \cdot h(x) = f(x)
 \end{gather}
 $$
 
-We can let
-$$x = k$$
- which makes
-$$ g(k) = 0 $$
-.
+We can let $x = k$ which makes $g(k) = 0$.
 
 So the equation becomes
 
