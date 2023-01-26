@@ -33,7 +33,7 @@ $$
 \end{gather}
 $$
 
-# Plug in values to isoalte the variable
+# Plug in values to isolate the variable
 
 $$
 \begin{gather}
@@ -55,6 +55,14 @@ a \cdot g(k) + b \cdot h(k) = f(k) \\
 \implies a \cdot 0 + b \cdot h(k) = f(k)
 \end{gather}
 $$
+
+Then we can solve for b since 
+$$h(k)$$
+ and 
+$$f(k)$$
+ is evaluated to constant.
+
+We can repeat this to solve `a` or other variables.
 
 # Systems of equation
 
