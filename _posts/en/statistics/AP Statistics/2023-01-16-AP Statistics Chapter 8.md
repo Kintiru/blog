@@ -174,7 +174,7 @@ $$
 
     $$
     \begin{gather}
-    n_1 \leq 0.1 \cdot N_1 \,, \, n_2 \leq 0.1 \cdot N_2 \\
+    n_1 \leq 0.1 \cdot N_1 \space, \space n_2 \leq 0.1 \cdot N_2 \\
     \implies \text{SE}_{\hat p_1 - \hat p_2} = \sqrt{\frac{\hat p_1(1 - \hat p_1)}{n_1} + \frac{\hat p_2(1 - \hat p_2)}{n_2}}
     \end{gather}
     $$
@@ -183,8 +183,8 @@ $$
 
 $$
 \begin{gather}
-n_1 \hat p_1 \geq 10 \,, \, n_2 \hat p_2 \geq 10 \\
-n_1(1- \hat p_1) \geq 10 \,, \, n_2 (1- \hat p_2) \geq 10 \\
+n_1 \hat p_1 \geq 10 \space , \space n_2 \hat p_2 \geq 10 \\
+n_1(1- \hat p_1) \geq 10 \space, \space n_2 (1- \hat p_2) \geq 10 \\
 \implies \hat p_1 - \hat p_2 \sim N
 \end{gather}
 $$
@@ -197,8 +197,8 @@ $$
  
 $$
 \begin{gather}
-n_1 \hat p_1 \geq 10 \; , \; n_2 \hat p_2 \geq 10 \\
-n_1(1- \hat p_1) \geq 10 \; , \; n_2 (1- \hat p_2) \geq 10 \\
+n_1 \hat p_1 \geq 10 \space , \space n_2 \hat p_2 \geq 10 \\
+n_1(1- \hat p_1) \geq 10 \space , \space n_2 (1- \hat p_2) \geq 10 \\
 \implies \hat p_1 - \hat p_2 \sim N
 \end{gather}
 $$
