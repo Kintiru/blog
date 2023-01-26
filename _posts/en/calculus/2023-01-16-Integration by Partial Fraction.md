@@ -109,7 +109,7 @@ $$
 \end{align}
 $$
 
-Then [plug in values to isolate the variable](#plug-in-values-to-isoalte-the-variable).
+Then [plug in values to isolate the variable](#plug-in-values-to-isolate-the-variable).
 
 
 $$
