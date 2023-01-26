@@ -197,8 +197,8 @@ $$
  
 $$
 \begin{gather}
-n_1 \hat p_1 \geq 10 \,, \, n_2 \hat p_2 \geq 10 \\
-n_1(1- \hat p_1) \geq 10 \,, \, n_2 (1- \hat p_2) \geq 10 \\
+n_1 \hat p_1 \geq 10 \; , \; n_2 \hat p_2 \geq 10 \\
+n_1(1- \hat p_1) \geq 10 \; , \; n_2 (1- \hat p_2) \geq 10 \\
 \implies \hat p_1 - \hat p_2 \sim N
 \end{gather}
 $$
