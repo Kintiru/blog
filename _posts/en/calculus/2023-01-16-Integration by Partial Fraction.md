@@ -14,6 +14,12 @@ mermaid: true
 #pin: true
 ---
 
+# Prerequisites
+ * Basic Integration
+ * Basic Algebra
+
+ ---
+
 # Method
 
 Partial Fraction is thinking one fraction as a sums of multiple fractions.
