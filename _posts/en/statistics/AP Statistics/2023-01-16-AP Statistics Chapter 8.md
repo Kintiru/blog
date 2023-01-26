@@ -130,9 +130,9 @@ $$
 \end{align}
 $$
 
-where `z*` is \|±z\|
+where z* is \|±z\|
 
-Table b provides `z*` values for certain confidence intervals.
+Table b provides z* values for certain confidence intervals.
 
 ### Conditions for estimating p
 
@@ -173,6 +173,7 @@ $$
 
  1. Random - Random Sampling
  2. Independence - 10% Condition, and the populations are independent of each other
+
 $$
 \begin{gather}
 n_1 \leq 0.1 \cdot N_1 \,, \, n_2 \leq 0.1 \cdot N_2 \\
@@ -190,11 +191,12 @@ n_1(1- \hat p_1) \geq 10 \,, \, n_2 (1- \hat p_2) \geq 10 \\
 \end{gather}
 $$
 
-### Experiments
+ ### Experiments
 
  1. Random - Random Assignment (a.k.a. Random Allocation)
  2. Indpendence - 10% condition **ONLY IF** random sampling is used
  3. Shape - Large Counts (for normality)
+ 
 $$
 \begin{gather}
 n_1 \hat p_1 \geq 10 \,, \, n_2 \hat p_2 \geq 10 \\
