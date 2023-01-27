@@ -15,14 +15,17 @@ mermaid: true
 ---
 
 # Prerequisites
+
  * Basic Integration
  * Basic Algebra
+ * du substitution
 
  ---
 
 # Method
 
-Partial Fraction is thinking one fraction as a sums of multiple fractions.
+Partial Fraction is thinking one fraction as a sums of multiple fractions. <br>
+(Especially the ones with factorable denominator)
 
 $$
 \begin{gather}
@@ -31,7 +34,7 @@ $$
 \end{gather}
 $$
 
-So it becomes easier to integrate with sums.
+So it becomes easier to integrate with sums because we can now distribute integral.
 
 $$
 \begin{gather}
@@ -58,7 +61,7 @@ a \cdot g(k) + b \cdot h(k) = f(k) \\
 \end{gather}
 $$
 
-Then we can solve for b since $h(k)$ and $f(k)$ is evaluated to constant.
+Then we can solve for b since $h(k)$ and $f(k)$ is now evaluated to constant.
 
 We can repeat this to solve `a` or other variables.
 
@@ -132,3 +135,6 @@ $$
 &= \frac{1}{2} \ln|x^2 -4| + C
 \end{align}
 $$
+
+
+We can also use du substitution to check our work in this example.
