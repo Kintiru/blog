@@ -192,7 +192,9 @@ $$
 ### Experiments
 
  1. Random - Random Assignment (a.k.a. Random Allocation)
- 2. Indpendence - 10% condition **ONLY IF** random sampling is used
+ 2. Indpendence 
+   * Treatments are independent
+   * 10% condition **ONLY IF** random sampling is used
  3. Shape - Large Counts (for normality)
  
 $$
