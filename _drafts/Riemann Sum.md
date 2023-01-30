@@ -29,8 +29,17 @@ Riemann Sum is approximating the area with the sum of areas.
 
 # Equation
 
+This is general form of Riemman Sum.
+
 $$
 \begin{gather}
 \sum f(x) \Delta x
+\end{gather}
+$$
+
+
+$$
+\begin{gather}
+\int_a^b f(x) \space dx = \lim_{n \to \infty } \sum^n_{k=1} f \left( a + \frac{b-a}{n}k \right) \frac{b-a}{n}
 \end{gather}
 $$
