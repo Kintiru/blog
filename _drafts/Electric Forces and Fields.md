@@ -22,7 +22,7 @@ Include script per post to prevent version break and better per post management
 
 $$
 |F_E| = \frac{kq_1q_2}{r^2} \\
-k = 1/4 \pi e_0 = 9.0 \times 10^9 (N \cdot m^2)/C^2
+k = 1/4 \pi \epsilon_0 = 9.0 \times 10^9 (N \cdot m^2)/C^2
 $$
 
 $$

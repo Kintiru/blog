@@ -14,3 +14,8 @@ mermaid: true
 #pin: true
 ---
 
+# 7.1 Sampling Distribution
+
+# 7.2 Sample Proportion
+
+# 7.3 Sample mean
