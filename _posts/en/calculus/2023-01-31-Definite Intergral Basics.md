@@ -28,7 +28,13 @@ Include script per post to prevent version break and better per post management
 
 Definite Integral represents area between the function and x axis.
 
-if the area is under the x axis, the result will be negative.
+If the area is above the x axis, the result will be positive.
+
+If the area is under the x axis, the result will be negative.
+
+In other words, it means the total change of $F(x)$ from $a$ to $b$.
+
+So if the derivative is at negative value, the fucntion $F(x)$ will decrease, and it is the reason why the integral or the area under x axis is negative. 
 
 $$
 \begin{gather}
