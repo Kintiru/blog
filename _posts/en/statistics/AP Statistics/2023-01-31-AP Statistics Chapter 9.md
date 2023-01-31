@@ -16,17 +16,25 @@ mermaid: true
 
 # 9.1 Significance Test
 
+Significance test is testing the claim or the hypothesis about population parameter such as proportion $p$ or mean $\mu$.
+
 ## Hypotheses
 
-`Null Hypothesis` $(H_0)$ : A claim we are finding evidence **against**
+`Null Hypothesis` $(H_0)$ : Original claim; claim we are finding evidence **against**
 
 > Example : A claim that a population parameter is certain value
 {: .prompt-info} 
 
-`Alternative Hypothesis` $(H_a)$ : A claim we are finding evidence **for**
+`Alternative Hypothesis` $(H_a)$ : Claim that original claim is wrong; A claim we are finding evidence **for**
 
-> Example : A claim that a population parameter is not (less or greater) than certain value
+> Example : A claim that a  (less or greater) than certain value
 {: .prompt-info} 
+
+ * One sided alternative hypothesis : Population parameter is less or greater null value (specifially less or greater; directional)
+
+
+
+ * Two sided alternative hypothesis : Population parameter is not the null value (no matter greater or less)
 
 `P-value` : probability of getting evidence for the alternative hypothesis $H_a$
 
