@@ -1,6 +1,6 @@
 ---
 title: 'AP Statistics Chapter 9: Sampling Proportions'
-date: 2021-01-31 13:00:00 +0900
+date: 2023-01-31 13:00:00 +0900
 author: kintiru
 categories: [English, Statistics]   # [TOP_CATEGORIE, SUB_CATEGORIE]
 tags: [English, Statistics, AP Statistics, Math]     # TAG names should always be lowercase
