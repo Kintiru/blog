@@ -74,3 +74,15 @@ $$
 &= f(x)
 \end{align}
 $$
+
+# Example
+
+$$
+\begin{align}
+\frac{d}{dx} \left[ \int_0^{2x} \ln t^2 \space dt \right] &= \frac{d}{dx}F(2x) - \frac{d}{dx}F(0) \\
+&= F'(2x) \cdot \frac{d}{dx}2x - 0 \\
+&= 2f(2x) \\
+&= 2 \ln (2x)^2 \\ 
+&= 2 \ln 4x^2
+\end{align}
+$$
