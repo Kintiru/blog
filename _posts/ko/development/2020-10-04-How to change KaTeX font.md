@@ -1,5 +1,5 @@
 ---
-title: 'How to change KaTeX Font and Color'
+title: '웹에서 KaTeX Font, Color 변경 방법'
 date: 2020-10-04 00:00:00 +0900
 author: kintiru
 categories: [Korean, Development]   # [TOP_CATEGORIE, SUB_CATEGORIE]
