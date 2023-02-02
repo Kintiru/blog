@@ -121,9 +121,6 @@ pwa:
 
 paginate: 10
 
-kramdown:
-  math_engine: katex
-
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:

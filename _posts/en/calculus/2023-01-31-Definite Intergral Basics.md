@@ -4,7 +4,7 @@ date: 2023-01-31 13:15:00 +0900
 author: kintiru
 categories: [English, Calculus]   # [TOP_CATEGORIE, SUB_CATEGORIE]
 tags: [English, Calculus, Math, AP Calculus BC]     # TAG names should always be lowercase
-math: false
+math: true
 mermaid: true
 #img_path: 
 #image: #preview image
