@@ -1,5 +1,5 @@
 ---
-title: 'AP Statistics Chapter 9: Sampling Proportions'
+title: 'AP Statistics Chapter 9: Testing Claims About Proportions'
 date: 2023-01-31 13:00:00 +0900
 author: kintiru
 categories: [English, Statistics]   # [TOP_CATEGORIE, SUB_CATEGORIE]
