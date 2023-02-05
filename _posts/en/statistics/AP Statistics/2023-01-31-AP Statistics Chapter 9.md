@@ -44,6 +44,12 @@ Significance test is testing the claim or the hypothesis about population parame
  * P-value $> \alpha \to$ No convincing evidence for $H_a$
  * 0.05 (5%) is often used for `Significance Level` $\alpha$
 
+## Interpretation of `P-value`
+
+Assuming $H_0$ is true, There is `P-value`(actual value) probability of getting sample `statistic` (mean, proportion, etc) of `sample statistic`(actual value) or greater/less.
+
+Example: Assuming that the true mean `in context` is 120, There is **0.1** probability of getting sample **mean** of **100** or **less**. 
+
 ## Errors
 
 `Type I Error` : Rejected H<sub>0</sub> even though H<sub>0</sub> is true.
