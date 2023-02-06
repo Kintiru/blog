@@ -56,14 +56,63 @@ Example: Assuming that the true mean `in context` is 120, There is **0.1** proba
 
 `Type II Error` : Fail to reject H<sub>0</sub> when H<sub>0</sub> is not ture (= when H<sub>a</sub> is true).
 
-> Easy way to remember
-> 
-> Since H<sub>0</sub> is primary claim, rejecting H<sub>0</sub> even if it is true is Type **I** Error.
-{: .prompt-info}
+Requiring more evidence or having lower `significance level` means that it is less likely to find convincing evidence, which means it is more likely to have `Type II Error`.
+
+The opposite will increase the chance of having `Type I Error`
 
 # 9.2 Population Porportion Test
 
-Will be added later
+## Conditions
+
+ 1. Random - Random Sample
+ 2. Independence (10% Condition) - $n \leq 0.1N$
+ 3. Normality (Laege Counts) - $np \geq 10, \space n(1-p) \geq 10$
+
+## Standardized Test
+
+`Standardized Test Statistic` : How far a sample statistic is from the parameter in standardized unit, assuming the null hypothesis $H_0$ is true
+
+$$
+\begin{gather}
+\text{standardized test statistic} = \frac{\text{statistic} - \text{parameter}}{\text{standard deviation/error of statistic}} \\
+= \frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}
+\end{gather}
+$$
+
+## Four step process of significance test
+
+ 1. State
+ 2. Plan
+ 3. Do
+ 4. Conclude
+
+## Power
+
+`Power` : Probability that the test will find convincing evidence for alternative hypothesis $H_a$ when alternative value for the parameter is true
+
+In other words, the probability of finding convincing evidence assuming the true parameter is some other value than null value.
+
+Power will be larger when
+ * Sample size n is larger (less varibility)
+ * Significance Level is larger (more chance to find convincing evidence)
+ * The null and alternative parameter values are more farther apart
+
+### Example: 
+ - Let $H_0 : \mu = 1$
+ - $H_a : \mu > 1$
+
+the power will be the probability of finding convincing evidence for $H_a$ assuming the true mean is 2.
+
+### Relationship with Type II Error
+
+$$
+\begin{gather}
+\text{Power} = 1 - P(\text{Type II Error}) \\
+\text{or} \\
+P(\text{Type II Error}) = 1- \text{Power}
+\end{gather}
+$$
+
 
 # 9.3 Population Proportion Difference Test
 
