@@ -116,4 +116,18 @@ $$
 
 # 9.3 Population Proportion Difference Test
 
-Will be added later
+## Conditions
+
+Check conditions for both $p_1$ and $p_2$
+
+ 1. Random - Random Sample
+ 2. Independence (10% Condition) - $n \leq 0.1N$
+ 3. Normality (Laege Counts) - $np \geq 10, \space n(1-p) \geq 10$
+
+ ## Standardized test Statistic
+
+ $$
+ \begin{gather}
+ z_{\hat p_1 - \hat p_2} = \frac{(\hat p_1 - \hat p_2) - (p_1 - p_2)}{\sqrt{\frac{p_1 (1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}}
+ \end{gather}
+ $$
