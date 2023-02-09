@@ -56,6 +56,11 @@ Example: Assuming that the true mean `in context` is 120, There is **0.1** proba
 
 `Type II Error` : Fail to reject H<sub>0</sub> when H<sub>0</sub> is not ture (= when H<sub>a</sub> is true).
 
+> Significance Level $\alpha$ is also a probability of getting `Type I Error`
+>
+> because we can still get p-value under significance by chance althought it is rare 
+{: prompt.info}
+
 Requiring more evidence or having lower `significance level` means that it is less likely to find convincing evidence, which means it is more likely to have `Type II Error`.
 
 The opposite will increase the chance of having `Type I Error`
@@ -88,20 +93,28 @@ $$
 
 ## Power
 
-`Power` : Probability that the test will find convincing evidence for alternative hypothesis $H_a$ when alternative value for the parameter is true
+`Power` : Probability that the test will find convincing evidence for alternative hypothesis $H_a$ when some alternative value for the parameter is true
 
 In other words, the probability of finding convincing evidence assuming the true parameter is some other value than null value.
 
+
+|                      | $H_0$ is true  | $H_a$ is true |
+|----------------------|----------------|---------------|
+| Reject $H_0$         | Type I Error   | Power         |
+| Fail to reject $H_0$ | Waste of money | Type II error |
+
 Power will be larger when
- * Sample size n is larger (less varibility)
- * Significance Level is larger (more chance to find convincing evidence)
- * The null and alternative parameter values are more farther apart
+ * Larger sample size n (less varibility)
+ * Larger significance Level $\alpha$ (more chance to find convincing evidence)
+ * Larger effective size (the null and alternative parameter values are more farther apart)
 
 ### Example: 
  - Let $H_0 : \mu = 1$
  - $H_a : \mu > 1$
 
 the power will be the probability of finding convincing evidence for $H_a$ assuming the true mean is 2.
+
+Applet: [https://istats.shinyapps.io/power/](https://istats.shinyapps.io/power)
 
 ### Relationship with Type II Error
 
@@ -122,7 +135,7 @@ Check conditions for both $p_1$ and $p_2$
 
  1. Random - Random Sample
  2. Independence (10% Condition) - $n \leq 0.1N$
- 3. Normality (Laege Counts) - $np \geq 10, \space n(1-p) \geq 10$
+ 3. Normality (Laege Counts) - $np_0 \geq 10, \space n(1-p_0) \geq 10$
 
  ## Standardized test Statistic
 
