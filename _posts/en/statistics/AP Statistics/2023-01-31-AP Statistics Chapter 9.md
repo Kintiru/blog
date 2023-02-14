@@ -135,12 +135,20 @@ Check conditions for both $p_1$ and $p_2$
 
  1. Random - Random Sample
  2. Independence (10% Condition) - $n \leq 0.1N$
- 3. Normality (Laege Counts) - $np_0 \geq 10, \space n(1-p_0) \geq 10$
+ 3. Normality (Large Counts) - $np_0 \geq 10, \space n(1-p_0) \geq 10$
 
- ## Standardized test Statistic
+## Combined proportion
+
+Assuming $p_1 = p_2$,
+
+$$
+\hat p_C = \frac{X_1 + X_2}{n_1 + n_2}
+$$
+
+## Standardized test Statistic
 
  $$
  \begin{gather}
- z_{\hat p_1 - \hat p_2} = \frac{(\hat p_1 - \hat p_2) - (p_1 - p_2)}{\sqrt{\frac{p_1 (1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}}
+ z_{\hat p_1 - \hat p_2} = \frac{(\hat p_1 - \hat p_2) - (p_1 - p_2)}{\sqrt{\frac{\hat p_C (1- \hat p_C)}{n_1} + \frac{\hat p_C(1- \hat p_C)}{n_2}}}
  \end{gather}
  $$
