@@ -145,10 +145,23 @@ $$
 \hat p_C = \frac{X_1 + X_2}{n_1 + n_2}
 $$
 
+When we assume $p_1 = p_2$, we are thinking that there was no difference in two samples. So, we are thinking like we got one larger sample with the size of $n_1 + n_2$.
+
+This also decreases the variability of sampling distribution of proportion since we are increasing the sample size, and it would likely be closer to the true proportion if null hypothesis of $p_1 = p_2$ is true.
+
 ## Standardized test Statistic
 
  $$
  \begin{gather}
  z_{\hat p_1 - \hat p_2} = \frac{(\hat p_1 - \hat p_2) - (p_1 - p_2)}{\sqrt{\frac{\hat p_C (1- \hat p_C)}{n_1} + \frac{\hat p_C(1- \hat p_C)}{n_2}}}
+ \end{gather}
+ $$
+
+Since we are assuming that $p_1 = p_2$, the equation can be simplified like below.
+
+
+ $$
+ \begin{gather}
+ z_{\hat p_1 - \hat p_2} = \frac{\hat p_1 - \hat p_2}{\sqrt{\frac{\hat p_C (1- \hat p_C)}{n_1} + \frac{\hat p_C(1- \hat p_C)}{n_2}}}
  \end{gather}
  $$
