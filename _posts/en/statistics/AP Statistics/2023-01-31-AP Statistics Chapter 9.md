@@ -59,7 +59,7 @@ Example: Assuming that the true mean `in context` is 120, There is **0.1** proba
 > Significance Level $\alpha$ is also a probability of getting `Type I Error`
 >
 > because we can still get p-value under significance by chance althought it is rare 
-{: prompt.info}
+{: .prompt-info}
 
 Requiring more evidence or having lower `significance level` means that it is less likely to find convincing evidence, which means it is more likely to have `Type II Error`.
 
