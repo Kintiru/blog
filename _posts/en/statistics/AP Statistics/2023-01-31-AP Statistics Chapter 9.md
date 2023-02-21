@@ -114,8 +114,6 @@ Power will be larger when
 
 the power will be the probability of finding convincing evidence for $H_a$ assuming the true mean is 2.
 
-Applet: [https://istats.shinyapps.io/power/](https://istats.shinyapps.io/power)
-
 ### Relationship with Type II Error
 
 $$
@@ -126,6 +124,10 @@ P(\text{Type II Error}) = 1- \text{Power}
 \end{gather}
 $$
 
+![Power and Error relationship picture](/assets/img/2023/02/Errors_in_Testing.png)
+_Power and Error relationship_
+
+Picture from Applet: [https://istats.shinyapps.io/power/](https://istats.shinyapps.io/power)
 
 # 9.3 Population Proportion Difference Test
 
