@@ -79,7 +79,7 @@ The opposite will increase the chance of having `Type I Error`
 
 $$
 \begin{gather}
-\text{standardized test statistic} = \frac{\text{statistic} - \text{parameter}}{\text{standard deviation/error of statistic}} \\
+\text{standardized test statistic} = \frac{\text{statistic} - \text{parameter}}{\text{standard deviation(error) of statistic}} \\
 = \frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}
 \end{gather}
 $$
