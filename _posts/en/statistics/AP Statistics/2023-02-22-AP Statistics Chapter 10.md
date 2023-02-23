@@ -25,7 +25,7 @@ Include script per post to prevent version break and better per post management
 $$
 \begin{gather}
 \text{point estimate } \pm \text{ margin of error} \\
-= \bar x \pm z^* \frac{\signma}{\sqrt{n}} \\
+= \bar x \pm z^* \frac{\sigma}{\sqrt{n}} \\
 = \bar x \pm t^* \frac{s_x}{\sqrt{n}}
 \end{gather}
 $$
