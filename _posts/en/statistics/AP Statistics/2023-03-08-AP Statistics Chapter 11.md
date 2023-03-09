@@ -66,7 +66,7 @@ Since we are testing if there is difference in means,
 
 $H_0$ : $\mu_1 - \mu_2= 0$
 
-$H_a$ : $\mu_1 - \mu_2 (>/</\neq) 0$
+$H_a$ : $\mu_1 - \mu_2 ( >/ </ \neq ) 0$
 
 ## Conditions
 
