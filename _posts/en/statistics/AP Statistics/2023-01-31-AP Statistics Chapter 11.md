@@ -43,6 +43,21 @@ $$
 | Normality    | Large Counts ($n \geq 30$)    | Large Counts ($n \geq 30$) |
 
 
+## Paired Data
+
+`Paired Data`: two different data (values) of the same quantative variable for each individual or each pair of similar individuals.
+
+Instead of doing two sample t test, we can just use the differences from the first place to reduce the work.
+
+### Conditions
+
+|              | Observational Study                  | Experiment                        |
+|--------------|--------------------------------------|-----------------------------------|
+| Random       | Random Sample                        | Random Assignment                 |
+| Independence | 10% Condition ($n_{diff}\leq0.1N$)   | Independent Treatments            |
+| Normality    | Large Counts ($n_{diff} \geq 30$)    | Large Counts ($n_{diff} \geq 30$) |
+
+
 # 11.2 Difference in Mean Test
 
 ## Hypothesis
@@ -73,6 +88,7 @@ $$
 T= \frac{\bar{x}_1 - \bar{x}_2 - (\mu_1-\mu_2)}{\displaystyle\sqrt{\frac{s^2_1}{n_1} + \frac{s^2_2}{n_2}}}
 \end{gather}
 $$
+
 
 # Four step process of significance test
 
