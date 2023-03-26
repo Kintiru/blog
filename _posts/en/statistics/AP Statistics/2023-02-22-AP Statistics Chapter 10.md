@@ -34,11 +34,13 @@ $$
 
 t distribution is used because parameter is unknown.
 
-Since parameter is unknown, we have to use sample standard deviation which is a estimation for the parameter and estimations have uncertainty.
+Therefore, we have to use sample standard deviation which is an estimation for the parameter.
 
-Thus, t distriution has larger tails than smaller peak than normal distribution but it becomes closer to normal distribution as `degrees of freedom` increases. 
+Since estimations have uncertainties, t distriution has larger tails than smaller peak than normal distribution but it becomes closer to normal distribution as `degrees of freedom` increases. 
 
-Corresponding t value of confidence level can be found in Table B, where degrees of freedom is $v = n-1$
+Corresponding t value of confidence level can be found in Table B. 
+
+In one variable statistics, where degrees of freedom is $v = n-1$ .
 
 Therefore,
 
@@ -61,7 +63,7 @@ Here,
 > VARS > DISTR > invT(area, df)
 {: .prompt-info}
 
-## Conditions
+## Conditions for t distribution
 
  1. Random: Random Sample or Random Assignment
  2. Independence: 10% Condition ($n < 0.1N$)
@@ -69,13 +71,15 @@ Here,
 
 # 10.2 Difference in Means Estimation
 
-## Conditions
+## Conditions for difference in means using t distribution
 
  1. Random: Random Sample or Random Assignment
  2. Independence: 10% Condition ($n_1 < 0.1N_1$ and $n_2 < 0.1N_2$)
  3. Normal (Large Counts): Central Limit Theorem ($n_1 \geq 30$ and $n_2 \geq 30$)
 
 ## Confidence interval for $\mu$
+
+Here is a simple recap of confidence interval and an equation using t distribution.
 
 $$
 \begin{gather}
@@ -86,6 +90,8 @@ $$
 
 ## t-value
 
+This is a t value for two variable statistics.
+
 $$
 \begin{gather}
 t= \frac{\text{error of point estimate }}{ \text{ standard error of statistic}} \\
@@ -94,6 +100,8 @@ t= \frac{\text{error of point estimate }}{ \text{ standard error of statistic}} 
 = \frac{\bar X_1 - \bar X_2}{\displaystyle\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}
 \end{gather}
 $$
+
+Remember again that $\text{Var}(\bar X)$ is variance of **sampling distribution**.
 
 ## Degrees of freedom
 
