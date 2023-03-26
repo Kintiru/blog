@@ -1,5 +1,5 @@
 ---
-title: 'AP Statistics Chapter 1: Hypoethesis Testing for Means'
+title: 'AP Statistics Chapter 11: Hypoethesis Testing for Means'
 date: 2023-03-08 13:00:00 +0900
 author: kintiru
 categories: [English, Statistics]   # [TOP_CATEGORIE, SUB_CATEGORIE]
@@ -16,7 +16,7 @@ mermaid: true
 
 # Prerequisite
 
-[AP Statistics Chapter 9 : Hypothesis Testing For Proportions](2023-01-31-AP%20Statistics%20Chapter%209.md)
+[AP Statistics Chapter 9 : Hypothesis Testing For Proportions](/english/statistics/2023/01/31/AP-Statistics-Chapter-9/)
 
 # 11.1 Significance Test for Mean
 
@@ -66,7 +66,7 @@ Since we are testing if there is difference in means,
 
 $H_0$ : $\mu_1 - \mu_2= 0$
 
-$H_a$ : $\mu_1 - \mu_2 (>/</\neq) 0$
+$H_a$ : $\mu_1 - \mu_2 >/ </ \neq  0$
 
 ## Conditions
 
