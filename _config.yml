@@ -183,13 +183,13 @@ compress_html:
     envs: [development]
 
 exclude:
-  - '*.gem'
-  - '*.gemspec'
+  - "*.gem"
+  - "*.gemspec"
   - tools
   - README.md
   - CHANGELOG.md
   - LICENSE
-  - gulpfile.js
+  - rollup.config.js
   - node_modules
   - package*.json
 
