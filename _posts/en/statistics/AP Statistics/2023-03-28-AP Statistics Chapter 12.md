@@ -64,6 +64,54 @@ We can carry out the test as we did in [Ch.9](/english/statistics/2023/01/31/AP-
  1. Random (10% condition)
  2. Large Counts: Every $E(X_i)$ is greater than 5
 
+# 12.2 Two way Chi Squared Test
+
+Test for independence and homogeneity is same except hypothesis.
+
+## Test for Independence
+
+Typically, Test for Independence is used when
+ * Single sample
+ * 2 categorical variables
+
+Here, we are looking for association (or independence) between two categorical variable in a single population
+
+### Performing the test
+
+ 1. State:
+    - $H_0$: Two variable __ and __ is independent in `population in interest` 
+    - $H_a$: Two variable __ and __ is independent is associated in `population in interest` 
+ 2. Plan: Check Conditions
+ 3. Do: Perform Calculations
+ 4. Conclude: Make Conclusion
+
+## Test for Homogeneity
+
+Test for Homogeneity is used when
+ * More than one samples or different treatments
+ * One Categorical Variable
+
+Here, we are testing if the distribution is same across different populations.
+
+### Performing the test
+
+ 1. State:
+    - $H_0$: The distribution of __ is same across __ and __ in `population in interest` 
+    - $H_a$: The distribution of __ is different __ in `population in interest` 
+ 2. Plan: Check Conditions
+ 3. Do: Perform Calculations
+ 4. Conclude: Make Conclusion
+
+### Comparison with 2 sample z test (proportions)
+
+ 1. 2 sample z test is powerful since we can set directions
+
+## Conditions for Inference
+
+ 1. Random: Random sample or assignment
+ 2. Independence: 10% condition or independent treatment
+ 3. Large counts: All expected counts are 5 or more ($\forall E(X_i) \geq 5$)
+
 # 12.3 Inference for Slope
 
 ## Population Regression Line
