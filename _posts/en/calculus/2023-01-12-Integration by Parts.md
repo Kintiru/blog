@@ -132,7 +132,7 @@ S &= \left| a\int_\alpha^\beta (x - \alpha)^m(x - \beta)^n dx \right| \\
 &x \to \beta \,, \text{ then } \quad t = \beta - \alpha \quad \\
 & \text{so, substitute upper and lower limit}\\
 S &= \left| a\int_0^{\beta - \alpha} (t)^m(x - \alpha - \beta + \alpha)^n dt \right| \\
-&= \left| a\int_0^{\beta - \alpha} t^m[t + (\beta - \alpha)]^n dt \right| \\
+&= \left| a\int_0^{\beta - \alpha} t^m[t - (\beta - \alpha)]^n dt \right| \\
 u &= \frac{t}{\beta - \alpha} \,, \quad (\beta - \alpha)du = dt\\
 &t \to 0 \,, \text{ then } \quad u = \frac{0}{\beta - \alpha} = 0\\
 &t \to \beta - \alpha \,, \text{ then } \quad u = \frac{\beta - \alpha}{\beta - \alpha} = 1\\
