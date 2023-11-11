@@ -25,3 +25,8 @@ ssh-add -l
 ```
 git config --global core.sshCommand C:/Windows/System32/OpenSSH/ssh.exe
 ```
+
+```
+git config user.name your_username
+git config user.email your_email@example.com
+```
