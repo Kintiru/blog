@@ -14,6 +14,18 @@ mermaid: true
 #pin: true
 ---
 
+# Chapter 7
+
+## Light and wave
+
+Light is a electromagnetic wave that has the properties below.
+
+Wavelength (λ): Wavelength is how much distance per cycle.
+
+Frequency (f): Frequency is many cycles per seconds.
+
+Velocity (m/s)
+
 ## Electron configuration
 
 ### Notation
@@ -65,7 +77,7 @@ Represents subshell within a shell.
 Represents orbital in a subshell.
 
 Number of orbitals within a subshell is $2l+1$, which is $-l,\cdots,0,\cdots,l$.
-
+1
 For example, in the p subshell which is $l=1$, the number of orbitals is $2\cdot1+1 = 3$ which the possible orbitals are $-1,0,1$.
 
 d subshell which is $l=2$, the number of orbitals is $2\cdot2+1 = 5$ which the possible orbitals are $-2,-1,0,1,2$.
@@ -106,4 +118,4 @@ Means same number of electrons. Isoelectronic ions have same number of electrons
 
 ### Ionization energy
 
-Shortest path to nobel gas
+Ionization energy is the energy required to remove a mol of electron from one mol of atoms.
