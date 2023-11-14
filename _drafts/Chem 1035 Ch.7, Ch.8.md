@@ -116,6 +116,9 @@ Means same number of electrons. Isoelectronic ions have same number of electrons
 
 #### valance electron
 
+ * $s$, $p$ orbital with highest $n$
+ * incomplete $d$, $f$ orbitals
+
 ### Ionization energy
 
 Ionization energy is the energy required to remove a mol of electron from one mol of atoms.
