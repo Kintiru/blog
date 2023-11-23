@@ -42,6 +42,30 @@ Potassium has the largest size, thus it has the lowest Lattice Energy
 
 The ability of an atom in bond to attract electron pair
 
+$\Delta EN$ 
+
+### Bond
+
+#### Bond order
+
+Number of bonds
+
+We see 4 bonds of equivalent of length, energy, order
+
+S=O
+
+Bond order = number of bonds / locations
+
+Example
+
+SO<sub>4</sub>
+
+b.o = 6/4 = 1.5
+
+#### Bond energy
+
+How much energy does bond has (strength of bond)
+
 ### Formal Charge
 
 Valance - dots - bonds
@@ -53,8 +77,24 @@ Example (CCl<sub>4</sub>)
 
 No Formal Charge greater or less than $\pm 1$
 
+(can exist but very unlikely statiscally)
+
 In structure, maximize 0 formal charges.
+
+More negative charge to more electronegative atom
 
 ### Overloading electrons
 
 Can overload electrons on most atoms, but not allowed for period 1 and 2
+
+### Geometry
+
+#### Electron Geometry
+
+Electron Geometry is the geometry of an atom including electrons.
+
+Therefore, it includes lone pair
+
+#### Shape of molecule
+
+Only counts atoms
