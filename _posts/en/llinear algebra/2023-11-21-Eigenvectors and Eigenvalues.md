@@ -17,7 +17,7 @@ mermaid: true
 # Eigenvector
 
 ## Definition
-Eigenvector of a matrix means a nonzero vector after the transformation by a square matrix is scalar times of the original vector.
+Eigenvector of a matrix is a nonzero vector after the transformation by a square matrix is scalar times of the original vector.
 
 $$
 \tag{1} A\vec x = \lambda \vec x
@@ -132,17 +132,25 @@ Therefore the eigenvector associated with $\lambda = 2$ is $\begin{bmatrix}1\\1/
 
 </details>
 
+# Relation to Trace
+
+trace is sum of diagonal entries of a matirix, and it is equal to the sum of eigenvalues of the matrix.
+
+$$
+\text{trace}(A) = \sum_{i=1}^n \lambda_i
+$$
+
 # Complex Eigenvectors/Eigenvalues
 
 If a matrix is a real matrix, $A\in \mathbb{R}^{n\times n}$, then the complex conjugate of its eigenvectors and eigenvalues are also the eigenvector and eigenvalues of the matrix $A$.
 
-This implies that if there a matrix have odd number of eigenvalues, at least one of the eigenvalues and associated eigenvector is real.
+Which implies that if there a matrix have odd number of eigenvalues, at least one of the eigenvalues and associated eigenvector is real.
 
 ## Having only complex numbers in eigenvalues/eigenvectors
 
 If a matrix has only complex eigenvectors and eigenvaues, it means any real vectors will be rotated by the matrix.
 
-## Eigenvalues of bipartite graph
+# Eigenvalues of bipartite graph
 
 Eigenvalues of bipartite graph are plus minus pairs.
 
