@@ -17,7 +17,9 @@ mermaid: true
 # Eigenvector
 
 ## Definition
-Eigenvector of a matrix is a nonzero vector after the transformation by a square matrix is scalar times of the original vector.
+Eigenvector of a matrix is a nonzero vector and becomes scalar times of the original vector after the transformation by a square matrix.
+
+By definition, eigenvectors cannot be zero vectors.
 
 $$
 \tag{1} A\vec x = \lambda \vec x
@@ -29,7 +31,7 @@ There are exactly $n$ eigenvectors and associated eigenvalues in a $n$ by $n$ ma
 
 $A$, $\lambda$, and the eigenvector $\vec x$ can include complex numbers.
 
-## Finding Eigenvectors and Eigenvalues
+## Characteristic equation
 
 By rearranging the equation (1) above, we can get
 
@@ -55,7 +57,9 @@ $$
 \det(A-\lambda I) = 0
 $$
 
-By solving the determeinant, we get $n$ th degree polynomial, and this is why $n \times n$ matrix has exactly $n$ roots including multiplicity by the fundamental threorem of algebra.
+By solving the determeinant, we get $n$ th degree polynomial called characteristic equation.
+
+Also, this is why $n \times n$ matrix has exactly $n$ roots including multiplicity by the fundamental threorem of algebra.
 
 <details>
 
