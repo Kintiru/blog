@@ -1,6 +1,6 @@
 
 
-In Wterminal or git bash,
+In Windows terminal or git bash,
 
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com"
