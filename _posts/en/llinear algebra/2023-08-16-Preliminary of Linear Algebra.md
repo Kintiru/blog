@@ -53,7 +53,9 @@ And here are some common notations (assume $A$ and $B$ are sets)
 
 # Real Numbers
 
+One set that is familiar to us is a set of real numbers, often denoted by $\mathbb{R}$.
 
+The properties should be fairly obvious.
 
 ## Properties
 
