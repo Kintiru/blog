@@ -64,3 +64,14 @@ You can set a global config, but you should still do this if you want to use dif
 git config user.name your_username
 git config user.email your_email@example.com
 ```
+
+# How to set signing key
+
+Open terminal, and type
+```
+git config --global gpg.format ssh
+
+git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
+```
+
+You can use the same ssh key as signing key.
