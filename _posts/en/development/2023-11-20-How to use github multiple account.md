@@ -65,10 +65,12 @@ git config user.name your_username
 git config user.email your_email@example.com
 ```
 
-# How to set signing key
+# Additional : How to set signing key
 
 Open terminal, and type
 ```
+git config --global commit.gpgsign true
+
 git config --global gpg.format ssh
 
 git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
